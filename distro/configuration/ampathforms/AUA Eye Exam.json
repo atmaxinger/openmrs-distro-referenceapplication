@@ -1,0 +1,53 @@
+{
+  "name": "AUA Eye Exam",
+  "pages": [
+    {
+      "label": "Vision",
+      "sections": [
+        {
+          "label": "Findings",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obsGroup",
+              "questionOptions": {
+                "rendering": "group"
+              },
+              "id": "leftEyeFindings",
+              "label": "Left Eye Findings",
+              "questions": [
+                {
+                  "type": "obs",
+                  "questionOptions": {
+                    "concept": "143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "rendering": "checkbox",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Yes"
+                      },
+                      {
+                        "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "No"
+                      }
+                    ]
+                  },
+                  "id": "lCornealDystrophy",
+                  "label": "L Corneal dystrophy"
+                }
+              ],
+              "required": false,
+              "questionInfo": "Left Eye Findings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "dd528487-82a5-4082-9c72-ed246bd49591",
+  "referencedForms": [],
+  "uuid": "d55f00e7-a712-4566-a2d6-36afeb2425b3",
+  "description": "AUA Eye Exam",
+  "version": "1.2"
+}

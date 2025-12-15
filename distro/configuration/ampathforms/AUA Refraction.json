@@ -1,0 +1,86 @@
+{
+  "name": "AUA Refraction",
+  "pages": [
+    {
+      "label": "Refraction",
+      "sections": [
+        {
+          "label": "Left Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-004"
+              },
+              "id": "sphericalPowerLeft",
+              "label": "Spherical Power Left"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-005"
+              },
+              "id": "cylindricalPowerLeft",
+              "label": "Cylindrical Power Left"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-006",
+                "min": "0",
+                "max": "180"
+              },
+              "id": "axisLeftEye",
+              "label": "Axis Left Eye"
+            }
+          ]
+        },
+        {
+          "label": "Right Eye",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-001"
+              },
+              "id": "sphericalPowerRight",
+              "label": "Spherical Power Right"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-002"
+              },
+              "id": "CylindricalPowerRight",
+              "label": " Cylindrical Power Right"
+            },
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-003",
+                "min": "0",
+                "max": "180"
+              },
+              "id": "axisRightEye",
+              "label": "Axis Right Eye"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "3596fafb-6f6f-4396-8c87-6e63a0f1bd71",
+  "referencedForms": [],
+  "uuid": "f7123697-4b55-4f7f-b5fd-ed117c6e230b",
+  "description": "AUA Refraction",
+  "version": "1.3"
+}
