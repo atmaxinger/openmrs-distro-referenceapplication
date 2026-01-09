@@ -3,15 +3,18 @@ Anterior segment diagnoses OS,Presbyopia OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Amblyopia OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Strabismus OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Corneal dystrophy OS,CONCEPT-SET,1
+Anterior segment diagnoses OS,Corneal scar OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Dry eye syndrome OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Pterygium OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Cataract OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Pseudophakia OS,CONCEPT-SET,1
 Anterior segment diagnoses OS,Status post uveitis OS,CONCEPT-SET,1
+Anterior segment diagnoses OS,Anterior segment other findings OS,CONCEPT-SET,1
 General Ophthalmological Findings,General Illness,CONCEPT-SET,1
 General Ophthalmological Findings,Medication,CONCEPT-SET,1
 General Ophthalmological Findings,Last Ophtamological Visit,CONCEPT-SET,1
 General Ophthalmological Findings,Wears Glasses Since,CONCEPT-SET,1
+General Ophthalmological Findings,Wearing glasses,CONCEPT-SET,1
 Autorefraction OS,Spherical refraction OS,CONCEPT-SET,1
 Autorefraction OS,Cylinder refraction OS,CONCEPT-SET,1
 Autorefraction OS,Axis OS,CONCEPT-SET,1
@@ -20,6 +23,9 @@ Subjective Refraction OS,Spherical refraction OS,CONCEPT-SET,1
 Subjective Refraction OS,Cylinder refraction OS,CONCEPT-SET,1
 Subjective Refraction OS,Axis OS,CONCEPT-SET,1
 Subjective Refraction OS,Visual Acuity with correction OS,CONCEPT-SET,1
+Subjective Refraction OS,Visual Acuity without correction OS,CONCEPT-SET,1
+Subjective Refraction OS,Glasses prescription OS,CONCEPT-SET,1
+Subjective Refraction OS,Intraocular pressure OS,CONCEPT-SET,1
 Autorefraction OD,Spherical refraction OD,CONCEPT-SET,1
 Autorefraction OD,Cylinder refraction OD,CONCEPT-SET,1
 Autorefraction OD,Axis OD,CONCEPT-SET,1
@@ -28,9 +34,55 @@ Subjective Refraction OD,Spherical refraction OD,CONCEPT-SET,1
 Subjective Refraction OD,Cylinder refraction OD,CONCEPT-SET,1
 Subjective Refraction OD,Axis OD,CONCEPT-SET,1
 Subjective Refraction OD,Visual Acuity with correction OD,CONCEPT-SET,1
+Subjective Refraction OD,Visual Acuity without correction OD,CONCEPT-SET,1
+Subjective Refraction OD,Glasses prescription OD,CONCEPT-SET,1
+Subjective Refraction OD,Intraocular pressure OD,CONCEPT-SET,1
 Service,Registration,CONCEPT-SET,1
 Service,Refraction Service,CONCEPT-SET,1
 Service,Eye Exam,CONCEPT-SET,1
 Service,Therapy,CONCEPT-SET,1
 Service,Pre-Surgery,CONCEPT-SET,1
 Service,Surgery,CONCEPT-SET,1
+Anterior segment diagnoses OD,Presbyopia OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Amblyopia OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Strabismus OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Corneal dystrophy OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Corneal scar OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Dry eye syndrome OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Pterygium OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Cataract OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Pseudophakia OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Status post uveitis OD,CONCEPT-SET,1
+Anterior segment diagnoses OD,Anterior segment other findings OD,CONCEPT-SET,1
+Posterior segment diagnoses OD,Glaucoma OD,CONCEPT-SET,1
+Posterior segment diagnoses OD,Diabetic retinopathy OD,CONCEPT-SET,1
+Posterior segment diagnoses OD,Age-related macular degeneration OD,CONCEPT-SET,1
+Posterior segment diagnoses OD,Posterior segment other findings OD,CONCEPT-SET,1
+Posterior segment diagnoses OS,Glaucoma OS,CONCEPT-SET,1
+Posterior segment diagnoses OS,Diabetic retinopathy OS,CONCEPT-SET,1
+Posterior segment diagnoses OS,Age-related macular degeneration OS,CONCEPT-SET,1
+Posterior segment diagnoses OS,Posterior segment other findings OS,CONCEPT-SET,1
+Treatment,Eye drops therapy OS,CONCEPT-SET,1
+Treatment,Eye drops therapy OD,CONCEPT-SET,1
+Treatment,Glasses donated OS,CONCEPT-SET,1
+Treatment,Glasses donated OD,CONCEPT-SET,1
+Treatment,Glasses prescribed,CONCEPT-SET,1
+Treatment,Operation,CONCEPT-SET,1
+Eye examination findings OS,Blurred near vision OS,CONCEPT-SET,1
+Eye examination findings OS,Blurred distance vision OS,CONCEPT-SET,1
+Eye examination findings OS,Eye irritation OS,CONCEPT-SET,1
+Eye examination findings OS,Floaters OS,CONCEPT-SET,1
+Eye examination findings OS,Flashes of light OS,CONCEPT-SET,1
+Eye examination findings OS,Dry eye sensation OS,CONCEPT-SET,1
+Eye examination findings OS,Eye pain OS,CONCEPT-SET,1
+Eye examination findings OS,Watery eyes OS,CONCEPT-SET,1
+Eye examination findings OS,Red eye OS,CONCEPT-SET,1
+Eye examination findings OD,Blurred near vision OD,CONCEPT-SET,1
+Eye examination findings OD,Blurred distance vision OD,CONCEPT-SET,1
+Eye examination findings OD,Eye irritation OD,CONCEPT-SET,1
+Eye examination findings OD,Floaters OD,CONCEPT-SET,1
+Eye examination findings OD,Flashes of light OD,CONCEPT-SET,1
+Eye examination findings OD,Dry eye sensation OD,CONCEPT-SET,1
+Eye examination findings OD,Eye pain OD,CONCEPT-SET,1
+Eye examination findings OD,Watery eyes OD,CONCEPT-SET,1
+Eye examination findings OD,Red eye OD,CONCEPT-SET,1
