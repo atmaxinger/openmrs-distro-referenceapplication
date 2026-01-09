@@ -68,6 +68,8 @@ a13c0316-b942-4d19-998c-6ceb1e4cfa95,,Corneal dystrophy OS,Cort + Nuc,,Diagnosis
 1a047af3-3c1a-47b6-a50a-f4471e707c03,,Corneal dystrophy OD,Cort + Nuc,,Diagnosis,Coded
 f7ab9758-bab4-4de0-a9f1-fc9315de9c8b,,Corneal scar OS,Corneal Scar,,Diagnosis,Coded
 3e481ec2-da4b-4250-87f7-43640d592940,,Corneal scar OD,Corneal Scar,,Diagnosis,Coded
+92a74dea-c1f4-4c2e-94fa-b91460f2d3b9,,Retinal scar OS,Retinal Scar,,Diagnosis,Coded
+4bd91467-220b-416c-a320-7ba855e62c92,,Retinal scar OD,Retinal Scar,,Diagnosis,Coded
 1d28146e-107d-4f16-a876-b1d87bef2131,,Dry eye syndrome OS,ECCE,,Diagnosis,Coded
 e020c228-5586-4c12-97d0-f9b1eee8c715,,Dry eye syndrome OD,ECCE,,Diagnosis,Coded
 d070535b-2b25-46c8-909a-0aa2341e1b8c,,Pterygium OS,Ptg sx,,Diagnosis,Coded

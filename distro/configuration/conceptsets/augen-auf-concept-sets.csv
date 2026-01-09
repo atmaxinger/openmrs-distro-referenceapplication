@@ -57,10 +57,12 @@ Anterior segment diagnoses OD,Anterior segment other findings OD,CONCEPT-SET,1
 Posterior segment diagnoses OD,Glaucoma OD,CONCEPT-SET,1
 Posterior segment diagnoses OD,Diabetic retinopathy OD,CONCEPT-SET,1
 Posterior segment diagnoses OD,Age-related macular degeneration OD,CONCEPT-SET,1
+Posterior segment diagnoses OD,Retinal scar OD,CONCEPT-SET,1
 Posterior segment diagnoses OD,Posterior segment other findings OD,CONCEPT-SET,1
 Posterior segment diagnoses OS,Glaucoma OS,CONCEPT-SET,1
 Posterior segment diagnoses OS,Diabetic retinopathy OS,CONCEPT-SET,1
 Posterior segment diagnoses OS,Age-related macular degeneration OS,CONCEPT-SET,1
+Posterior segment diagnoses OS,Retinal scar OS,CONCEPT-SET,1
 Posterior segment diagnoses OS,Posterior segment other findings OS,CONCEPT-SET,1
 Treatment,Eye drops therapy OS,CONCEPT-SET,1
 Treatment,Eye drops therapy OD,CONCEPT-SET,1
