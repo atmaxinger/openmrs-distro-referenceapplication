@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,Data class ,	Data type
+Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,Data class,Data type
 23c6d03e-e535-4421-a686-3e247813e398,,General Illness,General Illness or Systemic Disease,"Any relevant systemic illness (e.g., diabetes, hypertension, migraine)",Symptom/Finding,Text
 1efb9131-f95d-4f9f-8ab9-fb6ad4acd947,,Medication,Medication,,Symptom/Finding,Text
 52234465-dea6-4b04-b350-abc8f35443a4,,Last Ophtamological Visit,Last Opht Visit,,Symptom/Finding,Date
@@ -46,6 +46,8 @@ addb7647-d800-4b82-92e3-26f9973b6703,,Brunescent OS,Cat,,Finding,Coded
 847ee736-0690-4722-a8d9-2adb089d30c9,,Intumescent OD,IOL Placement,,Finding,Coded
 5017626d-b2d5-4a86-8d6a-6c74f652f93e,,IOL type OS,Last eye visit,,Finding,Text
 e6bb5a8a-fdb1-4a6d-b56d-515203570f65,,IOL type OD,Last eye visit,,Finding,Text
+5c601bda-30c7-4222-a01b-8c1d40144747,,IOL strength OS,IOL strength,IOL strength,Finding,Numeric
+5c601bda-30c7-4222-a01b-8c1d40144747,,IOL strength OD,IOL strength,IOL strength,Finding,Numeric
 e7f8fed0-bae2-4e71-8eb8-71ebefe4fdef,,IOL power OS,IOL Details,,Finding,Numeric
 afa54f2d-3055-46d1-9c0f-5f3a8645df82,,IOL power OD,IOL Details,,Finding,Numeric
 dc6fbb83-cd77-4cbb-9f43-8932297b9a9d,,No complication OS,Aphakia,,Finding,Coded
@@ -76,8 +78,8 @@ d070535b-2b25-46c8-909a-0aa2341e1b8c,,Pterygium OS,Ptg sx,,Diagnosis,Coded
 7fb6acd4-0c74-458d-b78a-35cf86ca3244,,Pterygium OD,Ptg sx,,Diagnosis,Coded
 a02e2265-13d6-4a5b-8a7f-e28095bc8e7a,,Cataract OS,Cat sx,,Diagnosis,Coded
 25819d84-6d96-4e4d-ad72-afdc730a0dde,,Cataract OD,Cat sx,,Diagnosis,Coded
-828cc0f2-42f4-4084-a53b-4020c29d0f5c,,Pseudophakia OS,Ptg,,Diagnosis,Coded
-02594842-dcb9-4565-9477-ecebfb32a990,,Pseudophakia OD,Ptg,,Diagnosis,Coded
+828cc0f2-42f4-4084-a53b-4020c29d0f5c,,Pseudophakia OS,Ptg,,Finding,Coded
+02594842-dcb9-4565-9477-ecebfb32a990,,Pseudophakia OD,Ptg,,Finding,Coded
 05409d07-9d08-49e7-8d57-8817e9d3efcf,,Status post uveitis OS,Estra,,Diagnosis,Coded
 2ad014fe-a5dc-47cc-8ee5-1da086e6dd60,,Status post uveitis OD,Estra,,Diagnosis,Coded
 54778351-6178-4454-ac14-eb3a22b392f1,,Glaucoma OS,HA,,Diagnosis,Coded
@@ -96,14 +98,13 @@ d4fc5b91-c84c-4db7-857e-bf6f46babfb8,,Cataract surgery OS,Cat Techn,,Procedure,C
 a110a903-4606-4926-a545-cfae960d85b0,,Cataract surgery OD,Cat Techn,,Procedure,Coded
 1ebdd04e-2ca3-4c5f-8ff8-14a56a58beb4,,Pterygium surgery OS,Ptg Astig,,Procedure,Coded
 3a665abe-cada-46de-937a-3926718bdbc2,,Pterygium surgery OD,Ptg Astig,,Procedure,Coded
-231f45ce-3942-403c-9198-d7f5d7a12c44,,Glasses donated OS,Glasses Rx,,Procedure,Coded
-482e023f-2f2b-4c1a-897b-6180c989a9a4,,Glasses donated OD,Glasses Rx,,Procedure,Coded
-649bc21a-7256-49ac-9089-7b33d1c8a869,,Phacoemulsification OS,PCR,,Procedure,Coded
-0200296c-1191-41da-a545-498a13f4077f,,Phacoemulsification OD,PCR,,Procedure,Coded
-09395d65-1f11-40cc-8ed6-16c93f8faa43,,Small-incision cataract surgery OS,Sph,,Procedure,Coded
-6dc4e116-07ea-42cd-af2d-0b019d285f41,,Small-incision cataract surgery OD,Sph,,Procedure,Coded
-7b7f1ae4-8648-44fc-bc39-5c2daae49321,,Extracapsular cataract extraction OS,Eye drops,,Procedure,Coded
-564abbe7-ee53-4af4-97ff-56f51f7c5945,,Extracapsular cataract extraction OD,Eye drops,,Procedure,Coded
+231f45ce-3942-403c-9198-d7f5d7a12c44,,Glasses donated,Glasses Rx,,Procedure,Coded
+649bc21a-7256-49ac-9089-7b33d1c8a869,,Phacoemulsification OS,PCR,,Finding,Coded
+0200296c-1191-41da-a545-498a13f4077f,,Phacoemulsification OD,PCR,,Finding,Coded
+09395d65-1f11-40cc-8ed6-16c93f8faa43,,Small-incision cataract surgery OS,Sph,,Finding,Coded
+6dc4e116-07ea-42cd-af2d-0b019d285f41,,Small-incision cataract surgery OD,Sph,,Finding,Coded
+7b7f1ae4-8648-44fc-bc39-5c2daae49321,,Extracapsular cataract extraction OS,Eye drops,,Finding,Coded
+564abbe7-ee53-4af4-97ff-56f51f7c5945,,Extracapsular cataract extraction OD,Eye drops,,Finding,Coded
 63292060-d243-4f22-8cea-2e1037cddd5b,,Posterior chamber IOL OS,PP,,Procedure,Coded
 e6e5df76-e14e-4c26-afb7-87188c668739,,Posterior chamber IOL OD,PP,,Procedure,Coded
 588c42ce-1e06-4564-917e-8cb92aeecabc,,Anterior chamber IOL OS,Ant Seg Dx,,Procedure,Coded
@@ -153,5 +154,20 @@ d970478a-40f5-48db-b6a8-a36c66a52d45,,Therapy,	Therapy,	Therapy,Misc,N/A
 4b64d18b-d8d1-4325-972e-ba7552049366,,Pre-Surgery,Pre-Surgery,Pre-Surgery,Misc,N/A
 87593930-fb12-4300-ae4b-21e7abd913d7,,Surgery,Surgery,Surgery,Misc,N/A
 b1a6d6b0-0001-4bda-9f6a-000000000000,,Service,Service,Service,ConvSet,N/A
+5bec98ce-0f2f-4daf-926e-7adc87488b17,,Best Corrected Visual Acuity,Best Corrected Visual Acuity,Best Corrected Visual Acuity,Finding,Numeric
+38d49b21-5a2f-45dc-b5b3-4b281ddf8b3c,,Necessary before surgery OS,Necessary before surgery,Necessary before surgery,Finding,Coded
+38d49b21-5a2f-45dc-b5b3-4b281ddf8b3c,,Necessary before surgery OD,Necessary before surgery,Necessary before surgery,Finding,Coded
+53c7bc33-e5fb-443a-b6f0-864565c33c1e,,Commentary (Pre-OP),Commentary (Pre-OP),Commentary (Pre-OP),Finding,Text
+e0fda258-8616-44b9-b376-e118ecf44281,,Commentary (Post-OP),Commentary (Post-OP),Commentary (Post-OP),Finding,Text
+f14a956b-8615-4a02-bd99-310139faaa1e,,Anestesia,Anestesia,Anestesia,Finding,Coded
+8b134a65-1726-4a14-946c-c28df9c3fd00,,Surgeon (Name),Surgeon (Name),Surgeon (Name),Finding,Coded
+28903c51-69d9-407c-a4ef-e2104b03521e,,Other Complication OS,Other Complication,Other Complication,Finding,Coded
+204823ec-4147-46f9-a474-0fb8a21cde81,,Other Complication OD,Other Complication,Other Complication,Finding,Coded
+289cd622-fc87-42ea-8ee1-d31bd27f2bc7,,With transplant OS,With transplant,With transplant,Finding,Coded
+79b8e5cd-0ddb-41bb-878e-cdca18898c15,,With transplant OD,With transplant,With transplant,Finding,Coded
+e5c18cf0-580a-4513-b9a9-86f0101d9169,,Without transplant OS,Without transplant,Without transplant,Finding,Coded
+b817e36f-669d-4a1c-b3e3-886f48bb639b,,Without transplant OD,Without transplant,Without transplant,Finding,Coded
+5573dfb9-a86f-4969-86b7-1d96edc82225,,MMC/5-FU OS,MMC/5-FU,MMC/5-FU,Finding,Coded
+5573dfb9-a86f-4969-86b7-1d96edc82225,,MMC/5-FU OD,MMC/5-FU,MMC/5-FU,Finding,Coded
 1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Yes,Yes,Affirmative answer,Misc,N/A
 1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,No,No,Negative answer,Misc,N/A
