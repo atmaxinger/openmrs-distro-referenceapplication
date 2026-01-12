@@ -1,173 +1,173 @@
-Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,Data class,Data type
-23c6d03e-e535-4421-a686-3e247813e398,,General Illness,General Illness or Systemic Disease,"Any relevant systemic illness (e.g., diabetes, hypertension, migraine)",Symptom/Finding,Text
-1efb9131-f95d-4f9f-8ab9-fb6ad4acd947,,Medication,Medication,,Symptom/Finding,Text
-52234465-dea6-4b04-b350-abc8f35443a4,,Last Ophtamological Visit,Last Opht Visit,,Symptom/Finding,Date
-6ff05e8a-7821-4469-bfb4-4af5ab892a02,,Wears Glasses Since,Glasses Since,,Symptom/Finding,Date
-2a920c5c-31c6-4acd-b805-69bd2dd58fa7,,Blurred near vision OS,Blurred near vision,Difficulty seeing objects close-up (e.g. reading),Symptom/Finding,Boolean
-ddac7f87-2853-4f65-9b6a-4639b1a69243,,Blurred distance vision OS,Blurred distance vision,Difficulty seeing far away (e.g. driving),Symptom/Finding,Boolean
-64939337-b6d6-49b5-b938-f088b527db53,,Eye irritation OS, foreign-body sensation,Itching burning,Symptom/Finding,Boolean
-4bdb77da-90d1-4034-9e59-dcc23d847c16,,Floaters OS,Floaters,Spots - Threads or cobwebs moving in field of vision - Floaters,Symptom/Finding,Boolean
-3651946e-a426-4f72-b87b-4a6f15f0fbe7,,Flashes of light OS,Flashes of light,Brief flashes or lightning streaks in vision,Symptom/Finding,Boolean
-54ae8727-d0d5-4c50-bd59-1b8879e76362,,Dry eye sensation OS,Dry eye,Feeling of grittiness or dryness,Symptom/Finding,Boolean
-b6e5220a-8b4f-47f5-80eb-2a942b278e3b,,Eye pain OS,Eye pain,Pain in or around the eye,Symptom/Finding,Boolean
-e052bab3-6c10-40bd-bee9-ad1429ded8c2,,Watery eyes OS,Watery eyes,Excessive tearing or watering,Symptom/Finding,Boolean
-e6303a57-a037-4bb8-b648-76fbc5be540d,,Red eye OS,Red eye,Redness or bloodshot appearance,Symptom/Finding,Boolean
-a2f5534d-2054-438d-933d-0d49f1288e51,,Blurred near vision OD,Blurred near vision,Difficulty seeing objects close-up (e.g. reading),Symptom/Finding,Boolean
-9b00a8a3-467d-4a91-a532-be4caa672ab4,,Blurred distance vision OD,Blurred distance vision,Difficulty seeing far away (e.g. driving),Symptom/Finding,Boolean
-f03cc9ab-f38e-4ca9-a239-e0e04895588a,,Eye irritation OD, foreign-body sensation,Itching burning,Symptom/Finding,Boolean
-faf9544f-6e81-4e8d-84c1-777202c11350,,Floaters OD,Floaters,Spots - Threads or cobwebs moving in field of vision - Floaters,Symptom/Finding,Boolean
-34d5843b-968b-4439-a4ae-0aa5c0900767,,Flashes of light OD,Flashes of light,Brief flashes or lightning streaks in vision,Symptom/Finding,Boolean
-a48f9dd3-293f-4d41-bcde-7aad6c6974cd,,Dry eye sensation OD,Dry eye,Feeling of grittiness or dryness,Symptom/Finding,Boolean
-ffbbd0d4-c3a4-4e92-93dc-6a6c70638adb,,Eye pain OD,Eye pain,Pain in or around the eye,Symptom/Finding,Boolean
-ffea6526-bae4-4e0c-b35b-962f6cf33eb6,,Watery eyes OD,Watery eyes,Excessive tearing or watering,Symptom/Finding,Boolean
-349a2400-c493-451d-8814-bc1a53bc3bdd,,Red eye OD,Red eye,Redness or bloodshot appearance,Symptom/Finding,Boolean
-2cf5bebb-22d5-448c-a010-65148fb13610,,Headache symptom,Headache,Headache associated with eye complaint,Symptom/Finding,Boolean
-21ba0ef0-5b97-4c0e-9e41-a877bf37fe30,,Other Symptoms,Other symptoms,Other symptoms,Symptom/Finding,Boolean
-a2a87870-594a-461f-891e-7bf276391bef,,Eye drops therapy OS,Eye Exam Findings,,Drug,N/A
-b44709ce-2a25-4ac4-87d2-b4c611a3c9bf,,Eye drops therapy OD,Eye Exam Findings,,Drug,N/A
-a412a599-55f8-463d-a861-596c96bd6c6d,,Wearing glasses,Wearing Rx,,Finding,Coded
-e3aecf2f-a093-4258-b6c9-4303cb204d68,,Pterygium-induced astigmatism OS,Red eye,,Finding,Coded
-63460134-0822-404a-b8af-aa3f30f324f0,,Pterygium-induced astigmatism OD,Red eye,,Finding,Coded
-b04c0c1d-97cb-416e-9954-9d9d100bbf25,,Pterygium length from limbus OS,Ptg sx,,Finding,Numeric
-b9b01c4c-0b3b-4ad8-bb23-7c7988c355fb,,Pterygium length from limbus OD,Ptg sx,,Finding,Numeric
-74e2b4a4-d60f-4cd3-aee0-25e669d6a27f,,Incipient OS,IOP,,Finding,Coded
-d22bcc3d-ccac-4fcb-b37b-0a20c8d8e804,,Incipient OD,IOP,,Finding,Coded
-8bdd608a-e790-4893-bf58-66feb3b9dfdc,,Cortical and nuclear OS,Cyl,,Finding,Coded
-f3482301-8fc2-40f0-b6e8-553790bdd44b,,Cortical and nuclear OD,Cyl,,Finding,Coded
-4b3ab888-b690-4ce6-be54-5fb4d5fab62c,,Posterior subcapsular OS,Presb,,Finding,Coded
-bd40e7ca-811c-4f37-85a4-ecb322f840f7,,Posterior subcapsular OD,Presb,,Finding,Coded
-ef993ca7-f1ff-4b55-bc79-bfab0097047e,,Posterior polar OS,Post Seg Dx,,Finding,Coded
-f6027e0d-b53c-496a-ab5c-b1db2e5fe9c9,,Posterior polar OD,Post Seg Dx,,Finding,Coded
-addb7647-d800-4b82-92e3-26f9973b6703,,Brunescent OS,Cat,,Finding,Coded
-6beb762a-da59-4652-8782-90a58408a258,,Brunescent OD,Cat,,Finding,Coded
-77d7f8e8-aeea-49fe-853a-d46b7be1b682,,Mature OS,Meds,,Finding,Coded
-7f60298a-a5c2-4646-a297-fb1b4542df99,,Mature OD,Meds,,Finding,Coded
-99e12851-63c9-4ec1-8a3c-f0b2cd4afdf0,,Intumescent OS,IOL Placement,,Finding,Coded
-847ee736-0690-4722-a8d9-2adb089d30c9,,Intumescent OD,IOL Placement,,Finding,Coded
-5017626d-b2d5-4a86-8d6a-6c74f652f93e,,IOL type OS,Last eye visit,,Finding,Text
-e6bb5a8a-fdb1-4a6d-b56d-515203570f65,,IOL type OD,Last eye visit,,Finding,Text
-5c601bda-30c7-4222-a01b-8c1d40144747,,IOL strength OS,IOL strength,IOL strength,Finding,Numeric
-5c601bda-30c7-4222-a01b-8c1d40144747,,IOL strength OD,IOL strength,IOL strength,Finding,Numeric
-e7f8fed0-bae2-4e71-8eb8-71ebefe4fdef,,IOL power OS,IOL Details,,Finding,Numeric
-afa54f2d-3055-46d1-9c0f-5f3a8645df82,,IOL power OD,IOL Details,,Finding,Numeric
-dc6fbb83-cd77-4cbb-9f43-8932297b9a9d,,No complication OS,Aphakia,,Finding,Coded
-3f1e8d83-586d-4e15-ac38-56447b6288f6,,No complication OD,Aphakia,,Finding,Coded
-5b5d7495-1908-4dbc-95b2-c278fd4269b8,,Zonular dehiscence OS,,,Finding,Coded
-509b9455-8b8b-4c8e-aa07-d08d8941d791,,Zonular dehiscence OD,,,Finding,Coded
-1dfcfc76-6e0b-4f76-bb1b-c93721e0c0f7,,Posterior capsule rupture OS,PC-IOL,,Finding,Coded
-d72e82e0-ad6d-4ffb-93e6-879bee362568,,Posterior capsule rupture OD,PC-IOL,,Finding,Coded
-0c1f76b5-e0e9-4b61-be58-d17f65895c25,,Vitreous loss OS,Wat Eyes,,Finding,Coded
-d049b048-8ab0-42e2-a7c7-89295e05f208,,Vitreous loss OD,Wat Eyes,,Finding,Coded
-e57d98a4-4b49-412d-b17a-e378cd64a412,,Retained lens matter OS,SICS,,Finding,Coded
-410c48d3-bad0-423a-bb40-4ef3a935b2a7,,Retained lens matter OD,SICS,,Finding,Coded
-15145683-3214-418e-9e59-ae340064db1c,,Presbyopia OS,Pseudophakia,,Diagnosis,Coded
-ac4e064a-ab2f-4647-8615-c7aa1acd2706,,Presbyopia OD,Pseudophakia,,Diagnosis,Coded
-a0ee5732-43fd-484e-894d-a91de6d0d2c9,,Amblyopia OS,AC-IOL,,Diagnosis,Coded
-28fbcf3a-fb20-4a45-b2bf-fd7efe618009,,Amblyopia OD,AC-IOL,,Diagnosis,Coded
-bea8c097-18d9-4c97-adb9-6bbbd79efcf8,,Strabismus OS,Treatment,,Diagnosis,Coded
-f5d7eed6-9c83-4736-ae63-5cc8e57fa784,,Strabismus OD,Treatment,,Diagnosis,Coded
-a13c0316-b942-4d19-998c-6ceb1e4cfa95,,Corneal dystrophy OS,Cort + Nuc,,Diagnosis,Coded
-1a047af3-3c1a-47b6-a50a-f4471e707c03,,Corneal dystrophy OD,Cort + Nuc,,Diagnosis,Coded
-f7ab9758-bab4-4de0-a9f1-fc9315de9c8b,,Corneal scar OS,Corneal Scar,,Diagnosis,Coded
-3e481ec2-da4b-4250-87f7-43640d592940,,Corneal scar OD,Corneal Scar,,Diagnosis,Coded
-92a74dea-c1f4-4c2e-94fa-b91460f2d3b9,,Retinal scar OS,Retinal Scar,,Diagnosis,Coded
-4bd91467-220b-416c-a320-7ba855e62c92,,Retinal scar OD,Retinal Scar,,Diagnosis,Coded
-1d28146e-107d-4f16-a876-b1d87bef2131,,Dry eye syndrome OS,ECCE,,Diagnosis,Coded
-e020c228-5586-4c12-97d0-f9b1eee8c715,,Dry eye syndrome OD,ECCE,,Diagnosis,Coded
-d070535b-2b25-46c8-909a-0aa2341e1b8c,,Pterygium OS,Ptg sx,,Diagnosis,Coded
-7fb6acd4-0c74-458d-b78a-35cf86ca3244,,Pterygium OD,Ptg sx,,Diagnosis,Coded
-a02e2265-13d6-4a5b-8a7f-e28095bc8e7a,,Cataract OS,Cat sx,,Diagnosis,Coded
-25819d84-6d96-4e4d-ad72-afdc730a0dde,,Cataract OD,Cat sx,,Diagnosis,Coded
-828cc0f2-42f4-4084-a53b-4020c29d0f5c,,Pseudophakia OS,Ptg,,Finding,Coded
-02594842-dcb9-4565-9477-ecebfb32a990,,Pseudophakia OD,Ptg,,Finding,Coded
-05409d07-9d08-49e7-8d57-8817e9d3efcf,,Status post uveitis OS,Estra,,Diagnosis,Coded
-2ad014fe-a5dc-47cc-8ee5-1da086e6dd60,,Status post uveitis OD,Estra,,Diagnosis,Coded
-54778351-6178-4454-ac14-eb3a22b392f1,,Glaucoma OS,HA,,Diagnosis,Coded
-5ea24f07-e0c6-4046-9fa4-90f3cdc76482,,Glaucoma OD,HA,,Diagnosis,Coded
-d3d68bab-cca8-4c9f-a122-ff21b3c05d0e,,Diabetic retinopathy OS,DES,,Diagnosis,Coded
-562de092-1493-476e-9361-d0d4f6d866b7,,Diabetic retinopathy OD,DES,,Diagnosis,Coded
-0c0b2adc-5e3a-4cf9-aa56-4ee968e8d55c,,Age-related macular degeneration OS,Amb,,Diagnosis,Coded
-55973d14-acaf-40e8-95d9-3a2c1f402835,,Age-related macular degeneration OD,Amb,,Diagnosis,Coded
-7e2714b5-13c1-4be8-8e02-f988b500098a,,Anterior segment other findings OS,?,,Diagnosis,Coded
-d84a96e0-7329-4910-a43c-97c7d3109130,,Anterior segment other findings OD,?,,Diagnosis,Coded
-17e37625-c24a-4beb-a820-53fe9521f154,,Posterior segment other findings OS,PSC,,Diagnosis,Coded
-dd69d697-3b41-4139-b2d7-12a92cf12715,,Posterior segment other findings OD,PSC,,Diagnosis,Coded
-27e5e48a-d74b-4377-a04a-b15b4ef15371,,Glasses prescription OS,Glauc,,Diagnosis,Coded
-bfa799f5-1f26-472d-98ed-4a148b029392,,Glasses prescription OD,Glauc,,Diagnosis,Coded
-d4fc5b91-c84c-4db7-857e-bf6f46babfb8,,Cataract surgery OS,Cat Techn,,Procedure,Coded
-a110a903-4606-4926-a545-cfae960d85b0,,Cataract surgery OD,Cat Techn,,Procedure,Coded
-1ebdd04e-2ca3-4c5f-8ff8-14a56a58beb4,,Pterygium surgery OS,Ptg Astig,,Procedure,Coded
-3a665abe-cada-46de-937a-3926718bdbc2,,Pterygium surgery OD,Ptg Astig,,Procedure,Coded
-231f45ce-3942-403c-9198-d7f5d7a12c44,,Glasses donated,Glasses Rx,,Procedure,Coded
-649bc21a-7256-49ac-9089-7b33d1c8a869,,Phacoemulsification OS,PCR,,Finding,Coded
-0200296c-1191-41da-a545-498a13f4077f,,Phacoemulsification OD,PCR,,Finding,Coded
-09395d65-1f11-40cc-8ed6-16c93f8faa43,,Small-incision cataract surgery OS,Sph,,Finding,Coded
-6dc4e116-07ea-42cd-af2d-0b019d285f41,,Small-incision cataract surgery OD,Sph,,Finding,Coded
-7b7f1ae4-8648-44fc-bc39-5c2daae49321,,Extracapsular cataract extraction OS,Eye drops,,Finding,Coded
-564abbe7-ee53-4af4-97ff-56f51f7c5945,,Extracapsular cataract extraction OD,Eye drops,,Finding,Coded
-63292060-d243-4f22-8cea-2e1037cddd5b,,Posterior chamber IOL OS,PP,,Procedure,Coded
-e6e5df76-e14e-4c26-afb7-87188c668739,,Posterior chamber IOL OD,PP,,Procedure,Coded
-588c42ce-1e06-4564-917e-8cb92aeecabc,,Anterior chamber IOL OS,Ant Seg Dx,,Procedure,Coded
-d05dde65-5c3f-4c2a-84dc-64f73241816d,,Anterior chamber IOL OD,Ant Seg Dx,,Procedure,Coded
-da9f0f58-8c71-47f9-a88e-a3da1377f55b,,No IOL implanted OS,OP,,Procedure,Coded
-2ceebf6b-52ed-4edd-890a-7e667746ae55,,No IOL implanted OD,OP,,Procedure,Coded
-37a6d331-902a-4688-8123-4ca37762c853,,Glasses prescribed,Glasses Rx,,Procedure,Coded
-fdde07dd-ec3d-496a-9a56-6e4b2e2c28a2,,Operation,OP,,Procedure,Text
-def947fa-6c2f-431d-8f76-5a6743912f9d,,General Ophthalmological Findings,General Ophthalmological Findings,General Ophthalmological Findings,ConvSet,N/A
-fbb3db2c-23a1-4657-ae54-3bf352af8345,,Eye examination findings OS,Irrit,,ConvSet,N/A
-160061cf-a290-4700-8402-aa462c7c1b34,,Anterior segment diagnoses OS,Ant Seg Dx Otros,,ConvSet,N/A
-fe72357e-6a01-4a19-81dc-f834e7634069,,Posterior segment diagnoses OS,Post Seg Dx Otros,,ConvSet,N/A
-d60d323d-5b93-4268-ac93-406c5d6cb32f,,Cataract morphology / grade OS,Cat sx,,ConvSet,N/A
-05bc0a66-25a3-4af7-a6e4-7800bc601771,,Cataract surgical technique OS,Dist Cor,,ConvSet,N/A
-d0ccd548-de07-4295-a5f1-058984a908f3,,IOL placement OS,IOL D,,ConvSet,N/A
-776c865a-9a38-4701-a43f-110ac7f9807f,,IOL specifications OS,IOL type,,ConvSet,N/A
-a6ce3543-715c-44d9-9dfe-666fcd787103,,Cataract surgery complications OS,Cat Techn,,ConvSet,N/A
-acbc93e9-4a90-4e6c-bf01-3f08ae9cee56,,Autorefraction OS,?,,ConvSet,N/A
-de5ec392-f21d-4820-be5f-ab311c627381,,Subjective Refraction OS,Treatment,,ConvSet,N/A
-925100b4-7b60-4ce9-b9ca-82fe1098a0a4,,Eye examination findings OD,Irrit,,ConvSet,N/A
-2dd7f329-209a-4ec1-93d7-0b7329154366,,Anterior segment diagnoses OD,Ant Seg Dx Otros,,ConvSet,N/A
-45503f1c-ca8d-4237-9abd-247b10366f92,,Posterior segment diagnoses OD,Post Seg Dx Otros,,ConvSet,N/A
-054a54fb-923a-4467-9ec3-b6c0af9fd0bf,,Cataract morphology / grade OD,Cat sx,,ConvSet,N/A
-51101b5e-7ca5-4008-8bd1-74d787aeb2ad,,Cataract surgical technique OD,Dist Cor,,ConvSet,N/A
-2de47e93-a33c-476a-8b6e-ebe296327870,,IOL placement OD,IOL D,,ConvSet,N/A
-59ca4f7a-d838-418b-a598-763a79495f19,,IOL specifications OD,IOL type,,ConvSet,N/A
-36413abf-d2e7-44da-9744-98eed02f86d0,,Cataract surgery complications OD,Cat Techn,,ConvSet,N/A
-9b3eadba-34c8-42d2-aaa0-51f052ca1125,,Treatment,Treatment,,ConvSet,N/A
-b28533a9-4b4b-4ad6-8f79-43eff85db8c9,,Autorefraction OD,?,,ConvSet,N/A
-ff262b78-3c41-4bb7-aa78-2cca2fa53b1b,,Subjective Refraction OD,Treatment,,ConvSet,N/A
-b1b9b4b2-fab7-4636-97c3-cc32dc580520,,Visual Acuity without correction OS,VL,,Test,Text
-f3cd0d08-b0d0-4a17-845e-bb79c1b79ae2,,Visual Acuity without correction OD,VL,,Test,Text
-a7901c3b-098c-457b-8325-c5c62dd290c7,,Visual Acuity with correction OS,sc,,Test,Text
-5293150c-4fd4-4e27-a78f-26286cd93535,,Visual Acuity with correction OD,sc,,Test,Text
-30fe53a8-dbc4-437f-af0c-94feb164e40b,,Intraocular pressure OS,Intumescent,,Test,Numeric
-488a17f5-4a39-4306-993c-cf355535ae71,,Intraocular pressure OD,Intumescent,,Test,Numeric
-f533bbb2-b4f2-4b5d-9bee-d87b3df43c80,,Spherical refraction OS,Post-uveitis,,Test,Numeric
-3b2ed532-94d9-4993-926d-ed16a4506098,,Spherical refraction OD,Post-uveitis,,Test,Numeric
-5028e6eb-22d8-4ed5-bc47-e5b12e29bc17,,Cylinder refraction OS,DR,,Test,Numeric
-9ef4fe57-ed49-4da7-9e43-68d89e1c1174,,Cylinder refraction OD,DR,,Test,Numeric
-fa80379f-1cb1-4c3f-98a9-11fa7a9ec244,,Axis OS,Blur far,,Test,Numeric
-10d72fea-d056-4b4e-a2fe-36203bf463d7,,Axis OD,Blur far,,Test,Numeric
-e65c0cb4-0da5-414d-8698-d7bc8ecb064d,,Registration,Registration,Registration,Misc,N/A
-979638e1-99cc-43a3-9410-8900626f479d,,Refraction Service,Refraction Service,Refraction Service,Misc,N/A
-fb917c2d-b770-4f80-82b6-f78f386397a5,,Eye Exam,Eye Exam,Eye Exam,Misc,N/A
-d970478a-40f5-48db-b6a8-a36c66a52d45,,Therapy,	Therapy,	Therapy,Misc,N/A
-4b64d18b-d8d1-4325-972e-ba7552049366,,Pre-Surgery,Pre-Surgery,Pre-Surgery,Misc,N/A
-87593930-fb12-4300-ae4b-21e7abd913d7,,Surgery,Surgery,Surgery,Misc,N/A
-b1a6d6b0-0001-4bda-9f6a-000000000000,,Service,Service,Service,ConvSet,N/A
-5bec98ce-0f2f-4daf-926e-7adc87488b17,,Best Corrected Visual Acuity,Best Corrected Visual Acuity,Best Corrected Visual Acuity,Finding,Numeric
-38d49b21-5a2f-45dc-b5b3-4b281ddf8b3c,,Necessary before surgery OS,Necessary before surgery,Necessary before surgery,Finding,Coded
-38d49b21-5a2f-45dc-b5b3-4b281ddf8b3c,,Necessary before surgery OD,Necessary before surgery,Necessary before surgery,Finding,Coded
-53c7bc33-e5fb-443a-b6f0-864565c33c1e,,Commentary (Pre-OP),Commentary (Pre-OP),Commentary (Pre-OP),Finding,Text
-e0fda258-8616-44b9-b376-e118ecf44281,,Commentary (Post-OP),Commentary (Post-OP),Commentary (Post-OP),Finding,Text
-f14a956b-8615-4a02-bd99-310139faaa1e,,Anestesia,Anestesia,Anestesia,Finding,Coded
-8b134a65-1726-4a14-946c-c28df9c3fd00,,Surgeon (Name),Surgeon (Name),Surgeon (Name),Finding,Coded
-28903c51-69d9-407c-a4ef-e2104b03521e,,Other Complication OS,Other Complication,Other Complication,Finding,Coded
-204823ec-4147-46f9-a474-0fb8a21cde81,,Other Complication OD,Other Complication,Other Complication,Finding,Coded
-289cd622-fc87-42ea-8ee1-d31bd27f2bc7,,With transplant OS,With transplant,With transplant,Finding,Coded
-79b8e5cd-0ddb-41bb-878e-cdca18898c15,,With transplant OD,With transplant,With transplant,Finding,Coded
-e5c18cf0-580a-4513-b9a9-86f0101d9169,,Without transplant OS,Without transplant,Without transplant,Finding,Coded
-b817e36f-669d-4a1c-b3e3-886f48bb639b,,Without transplant OD,Without transplant,Without transplant,Finding,Coded
-5573dfb9-a86f-4969-86b7-1d96edc82225,,MMC/5-FU OS,MMC/5-FU,MMC/5-FU,Finding,Coded
-5573dfb9-a86f-4969-86b7-1d96edc82225,,MMC/5-FU OD,MMC/5-FU,MMC/5-FU,Finding,Coded
-1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Yes,Yes,Affirmative answer,Misc,N/A
-1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,No,No,Negative answer,Misc,N/A
+Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Fully specified name:de,Short name:de,Fully specified name:es,Short name:es
+23c6d03e-e535-4421-a686-3e247813e398,,General Illness,General Illness or Systemic Disease,"Any relevant systemic illness (e.g., diabetes, hypertension, migraine)",Symptom/Finding,Text,Allgemeinerkrankungen,Allgemeinerkrankungen,Enfermedades generales,Enfermedades generales
+1efb9131-f95d-4f9f-8ab9-fb6ad4acd947,,Medication,Medication,,Symptom/Finding,Text,Medication,Medication,Medicación,Medicación
+52234465-dea6-4b04-b350-abc8f35443a4,,Last Ophtamological Visit,Last Opht Visit,,Symptom/Finding,Date,Last Ophtamological Visit,Last Ophtamological Visit,Última visita oftalmológica,Última visita oftalmológica
+6ff05e8a-7821-4469-bfb4-4af5ab892a02,,Wears Glasses Since,Glasses Since,,Symptom/Finding,Date,Wears Glasses Since,Wears Glasses Since,Usa gafas desde,Usa gafas desde
+2a920c5c-31c6-4acd-b805-69bd2dd58fa7,,Blurred near vision OS,Blurred near vision,Difficulty seeing objects close-up (e.g. reading),Symptom/Finding,Boolean,Nahunscharf OS,Nahunscharf,Visión de cerca borrosa OS,Visión de cerca borrosa
+ddac7f87-2853-4f65-9b6a-4639b1a69243,,Blurred distance vision OS,Blurred distance vision,Difficulty seeing far away (e.g. driving),Symptom/Finding,Boolean,Fernunscharf OS,Fernunscharf,Visión de lejos borrosa OS,Visión de lejos borrosa
+64939337-b6d6-49b5-b938-f088b527db53,,Eye irritation OS,foreign-body sensation,Itching burning,Symptom/Finding,Boolean,Irritation OS,Irritation,Irritación OS,Irritación
+4bdb77da-90d1-4034-9e59-dcc23d847c16,,Floaters OS,Floaters,Spots - Threads or cobwebs moving in field of vision - Floaters,Symptom/Finding,Boolean,Glaskörpertrübungen OS,Glaskörpertrübungen,Flotadores OS,Flotadores
+3651946e-a426-4f72-b87b-4a6f15f0fbe7,,Flashes of light OS,Flashes of light,Brief flashes or lightning streaks in vision,Symptom/Finding,Boolean,Lichtblitze OS,Lichtblitze,Flashes de luz OS,Flashes de luz
+54ae8727-d0d5-4c50-bd59-1b8879e76362,,Dry eye sensation OS,Dry eye,Feeling of grittiness or dryness,Symptom/Finding,Boolean,Trockenheitsgefühl OS,Trockenheitsgefühl,Sensación de ojo seco OS,Sensación de ojo seco
+b6e5220a-8b4f-47f5-80eb-2a942b278e3b,,Eye pain OS,Eye pain,Pain in or around the eye,Symptom/Finding,Boolean,Schmerzen OS,Schmerzen,Dolor OS,Dolor
+e052bab3-6c10-40bd-bee9-ad1429ded8c2,,Watery eyes OS,Watery eyes,Excessive tearing or watering,Symptom/Finding,Boolean,Tränen OS,Tränen,Lagrimeo OS,Lagrimeo
+e6303a57-a037-4bb8-b648-76fbc5be540d,,Red eye OS,Red eye,Redness or bloodshot appearance,Symptom/Finding,Boolean,Rötung OS,Rötung,Ojo rojo OS,Ojo rojo
+a2f5534d-2054-438d-933d-0d49f1288e51,,Blurred near vision OD,Blurred near vision,Difficulty seeing objects close-up (e.g. reading),Symptom/Finding,Boolean,Nahunscharf OD,Nahunscharf,Visión de cerca borrosa OD,Visión de cerca borrosa
+9b00a8a3-467d-4a91-a532-be4caa672ab4,,Blurred distance vision OD,Blurred distance vision,Difficulty seeing far away (e.g. driving),Symptom/Finding,Boolean,Fernunscharf OD,Fernunscharf,Visión de lejos borrosa OD,Visión de lejos borrosa
+f03cc9ab-f38e-4ca9-a239-e0e04895588a,,Eye irritation OD,foreign-body sensation,Itching burning,Symptom/Finding,Boolean,Irritation OD,Irritation,Irritación OD,Irritación
+faf9544f-6e81-4e8d-84c1-777202c11350,,Floaters OD,Floaters,Spots - Threads or cobwebs moving in field of vision - Floaters,Symptom/Finding,Boolean,Glaskörpertrübungen OD,Glaskörpertrübungen,Flotadores OD,Flotadores
+34d5843b-968b-4439-a4ae-0aa5c0900767,,Flashes of light OD,Flashes of light,Brief flashes or lightning streaks in vision,Symptom/Finding,Boolean,Lichtblitze OD,Lichtblitze,Flashes de luz OD,Flashes de luz
+a48f9dd3-293f-4d41-bcde-7aad6c6974cd,,Dry eye sensation OD,Dry eye,Feeling of grittiness or dryness,Symptom/Finding,Boolean,Trockenheitsgefühl OD,Trockenheitsgefühl,Sensación de ojo seco OD,Sensación de ojo seco
+ffbbd0d4-c3a4-4e92-93dc-6a6c70638adb,,Eye pain OD,Eye pain,Pain in or around the eye,Symptom/Finding,Boolean,Schmerzen OD,Schmerzen,Dolor OD,Dolor
+ffea6526-bae4-4e0c-b35b-962f6cf33eb6,,Watery eyes OD,Watery eyes,Excessive tearing or watering,Symptom/Finding,Boolean,Tränen OD,Tränen,Lagrimeo OD,Lagrimeo
+349a2400-c493-451d-8814-bc1a53bc3bdd,,Red eye OD,Red eye,Redness or bloodshot appearance,Symptom/Finding,Boolean,Rötung OD,Rötung,Ojo rojo OD,Ojo rojo
+2cf5bebb-22d5-448c-a010-65148fb13610,,Headache symptom,Headache,Headache associated with eye complaint,Symptom/Finding,Boolean,Kopfschmerzen,Kopfschmerzen,Dolor de cabeza,Dolor de cabeza
+21ba0ef0-5b97-4c0e-9e41-a877bf37fe30,,Other Symptoms,Other symptoms,Other symptoms,Symptom/Finding,Boolean,Andere Beschwerden,Andere Beschwerden,Otros síntomas,Otros síntomas
+a2a87870-594a-461f-891e-7bf276391bef,,Eye drops therapy OS,Eye Exam Findings,,Drug,N/A,Benetzungstropfen OS,Benetzungstropfen,Terapia con colirio OS,Terapia con colirio
+b44709ce-2a25-4ac4-87d2-b4c611a3c9bf,,Eye drops therapy OD,Eye Exam Findings,,Drug,N/A,Benetzungstropfen OD,Benetzungstropfen,Terapia con colirio OD,Terapia con colirio
+a412a599-55f8-463d-a861-596c96bd6c6d,,Wearing glasses,Wearing Rx,,Finding,Coded,Brillenträger,Brillenträger,Gafas puestas,Gafas puestas
+e3aecf2f-a093-4258-b6c9-4303cb204d68,,Pterygium-induced astigmatism OS,Red eye,,Finding,Coded,Pterygium-induzierter Astigmatismus OS,Pterygium-induzierter Astigmatismus,Astigmatismo inducido por pterigión OS,Astigmatismo inducido por pterigión
+63460134-0822-404a-b8af-aa3f30f324f0,,Pterygium-induced astigmatism OD,Red eye,,Finding,Coded,Pterygium-induzierter Astigmatismus OD,Pterygium-induzierter Astigmatismus,Astigmatismo inducido por pterigión OD,Astigmatismo inducido por pterigión
+b04c0c1d-97cb-416e-9954-9d9d100bbf25,,Pterygium length from limbus OS,Ptg sx,,Finding,Numeric,Pterygiumausdehnung vom Limbus (mm) OS,Pterygiumausdehnung vom Limbus (mm),Longitud pterigión desde limbo OS,Longitud pterigión desde limbo
+b9b01c4c-0b3b-4ad8-bb23-7c7988c355fb,,Pterygium length from limbus OD,Ptg sx,,Finding,Numeric,Pterygiumausdehnung vom Limbus (mm) OD,Pterygiumausdehnung vom Limbus (mm),Longitud pterigión desde limbo OD,Longitud pterigión desde limbo
+74e2b4a4-d60f-4cd3-aee0-25e669d6a27f,,Incipient OS,IOP,,Finding,Coded,Incipiens OS,Incipiens,Incipiens OS,Incipiens
+d22bcc3d-ccac-4fcb-b37b-0a20c8d8e804,,Incipient OD,IOP,,Finding,Coded,Incipiens OD,Incipiens,Incipiens OD,Incipiens
+8bdd608a-e790-4893-bf58-66feb3b9dfdc,,Cortical and nuclear OS,Cyl,,Finding,Coded,Kortikale + nukleäre Katarakt OS,Kortikale + nukleäre Katarakt,corticalis et nuclearis OS,corticalis et nuclearis
+f3482301-8fc2-40f0-b6e8-553790bdd44b,,Cortical and nuclear OD,Cyl,,Finding,Coded,Kortikale + nukleäre Katarakt OD,Kortikale + nukleäre Katarakt,corticalis et nuclearis OD,corticalis et nuclearis
+4b3ab888-b690-4ce6-be54-5fb4d5fab62c,,Posterior subcapsular OS,Presb,,Finding,Coded,Posterior subkapsuläre Katarakt OS,Posterior subkapsuläre Katarakt,Subcapsular posterior OS,Subcapsular posterior
+bd40e7ca-811c-4f37-85a4-ecb322f840f7,,Posterior subcapsular OD,Presb,,Finding,Coded,Posterior subkapsuläre Katarakt OD,Posterior subkapsuläre Katarakt,Subcapsular posterior OD,Subcapsular posterior
+ef993ca7-f1ff-4b55-bc79-bfab0097047e,,Posterior polar OS,Post Seg Dx,,Finding,Coded,Posterior polar Katarakt OS,Posterior polar Katarakt,Polar posterior OS,Polar posterior
+f6027e0d-b53c-496a-ab5c-b1db2e5fe9c9,,Posterior polar OD,Post Seg Dx,,Finding,Coded,Posterior polar Katarakt OD,Posterior polar Katarakt,Polar posterior OD,Polar posterior
+addb7647-d800-4b82-92e3-26f9973b6703,,Brunescent OS,Cat,,Finding,Coded,Dry eye sensation OS,Dry eye sensation,Brunescente OS,Brunescente
+6beb762a-da59-4652-8782-90a58408a258,,Brunescent OD,Cat,,Finding,Coded,Dry eye sensation OD,Dry eye sensation,Brunescente OD,Brunescente
+77d7f8e8-aeea-49fe-853a-d46b7be1b682,,Mature OS,Meds,,Finding,Coded,Reife Katarakt OS,Reife Katarakt,Madura OS,Madura
+7f60298a-a5c2-4646-a297-fb1b4542df99,,Mature OD,Meds,,Finding,Coded,Reife Katarakt OD,Reife Katarakt,Madura OD,Madura
+99e12851-63c9-4ec1-8a3c-f0b2cd4afdf0,,Intumescent OS,IOL Placement,,Finding,Coded,Intumescens OS,Intumescens,Intumescente OS,Intumescente
+847ee736-0690-4722-a8d9-2adb089d30c9,,Intumescent OD,IOL Placement,,Finding,Coded,Intumescens OD,Intumescens,Intumescente OD,Intumescente
+5017626d-b2d5-4a86-8d6a-6c74f652f93e,,IOL type OS,Last eye visit,,Finding,Text,Intraokularlinsentyp OS,Intraokularlinsentyp,Tipo de lente intraocular OS,Tipo de lente intraocular
+e6bb5a8a-fdb1-4a6d-b56d-515203570f65,,IOL type OD,Last eye visit,,Finding,Text,Intraokularlinsentyp OD,Intraokularlinsentyp,Tipo de lente intraocular OD,Tipo de lente intraocular
+5c601bda-30c7-4222-a01b-8c1d40144747,,IOL strength OS,IOL strength,IOL strength,Finding,Numeric,Intraokularlinsenstärke OS,Intraokularlinsenstärke,Potencia LIO OS,Potencia LIO
+5c601bda-30c7-4222-a01b-8c1d40144747,,IOL strength OD,IOL strength,IOL strength,Finding,Numeric,Intraokularlinsenstärke OD,Intraokularlinsenstärke,Potencia LIO OD,Potencia LIO
+e7f8fed0-bae2-4e71-8eb8-71ebefe4fdef,,IOL power OS,IOL Details,,Finding,Numeric,IOL-Stärke OS,IOL-Stärke,IOL potencia OS,IOL potencia
+afa54f2d-3055-46d1-9c0f-5f3a8645df82,,IOL power OD,IOL Details,,Finding,Numeric,IOL-Stärke OD,IOL-Stärke,IOL potencia OD,IOL potencia
+dc6fbb83-cd77-4cbb-9f43-8932297b9a9d,,No complication OS,Aphakia,,Finding,Coded,keine Komplikation OS,keine Komplikation,Ninguna complicación OS,Ninguna complicación
+3f1e8d83-586d-4e15-ac38-56447b6288f6,,No complication OD,Aphakia,,Finding,Coded,keine Komplikation OD,keine Komplikation,Ninguna complicación OD,Ninguna complicación
+5b5d7495-1908-4dbc-95b2-c278fd4269b8,,Zonular dehiscence OS,,,Finding,Coded,Zonuladehiszenz OS,Zonuladehiszenz,Dehiscencia zonular OS,Dehiscencia zonular
+509b9455-8b8b-4c8e-aa07-d08d8941d791,,Zonular dehiscence OD,,,Finding,Coded,Zonuladehiszenz OD,Zonuladehiszenz,Dehiscencia zonular OD,Dehiscencia zonular
+1dfcfc76-6e0b-4f76-bb1b-c93721e0c0f7,,Posterior capsule rupture OS,PC-IOL,,Finding,Coded,Hinterkapselruptur OS,Hinterkapselruptur,Rotura de cápsula posterior OS,Rotura de cápsula posterior
+d72e82e0-ad6d-4ffb-93e6-879bee362568,,Posterior capsule rupture OD,PC-IOL,,Finding,Coded,Hinterkapselruptur OD,Hinterkapselruptur,Rotura de cápsula posterior OD,Rotura de cápsula posterior
+0c1f76b5-e0e9-4b61-be58-d17f65895c25,,Vitreous loss OS,Wat Eyes,,Finding,Coded,Glaskörperverlust OS,Glaskörperverlust,Pérdida vítrea OS,Pérdida vítrea
+d049b048-8ab0-42e2-a7c7-89295e05f208,,Vitreous loss OD,Wat Eyes,,Finding,Coded,Glaskörperverlust OD,Glaskörperverlust,Pérdida vítrea OD,Pérdida vítrea
+e57d98a4-4b49-412d-b17a-e378cd64a412,,Retained lens matter OS,SICS,,Finding,Coded,Retinierte Linsenreste OS,Retinierte Linsenreste,Material lens retenido OS,Material lens retenido
+410c48d3-bad0-423a-bb40-4ef3a935b2a7,,Retained lens matter OD,SICS,,Finding,Coded,Retinierte Linsenreste OD,Retinierte Linsenreste,Material lens retenido OD,Material lens retenido
+15145683-3214-418e-9e59-ae340064db1c,,Presbyopia OS,Pseudophakia,,Diagnosis,Coded,Presbyopie OS,Presbyopie,Presbicia OS,Presbicia
+ac4e064a-ab2f-4647-8615-c7aa1acd2706,,Presbyopia OD,Pseudophakia,,Diagnosis,Coded,Presbyopie OD,Presbyopie,Presbicia OD,Presbicia
+a0ee5732-43fd-484e-894d-a91de6d0d2c9,,Amblyopia OS,AC-IOL,,Diagnosis,Coded,Schwachsichtigkeit OS,Schwachsichtigkeit,Amblyopia OS,Amblyopia
+28fbcf3a-fb20-4a45-b2bf-fd7efe618009,,Amblyopia OD,AC-IOL,,Diagnosis,Coded,Schwachsichtigkeit OD,Schwachsichtigkeit,Amblyopia OD,Amblyopia
+bea8c097-18d9-4c97-adb9-6bbbd79efcf8,,Strabismus OS,Treatment,,Diagnosis,Coded,Strabismus OS,Strabismus,Estrabismo OS,Estrabismo
+f5d7eed6-9c83-4736-ae63-5cc8e57fa784,,Strabismus OD,Treatment,,Diagnosis,Coded,Strabismus OD,Strabismus,Estrabismo OD,Estrabismo
+a13c0316-b942-4d19-998c-6ceb1e4cfa95,,Corneal dystrophy OS,Cort + Nuc,,Diagnosis,Coded,Hornhautdystrophie OS,Hornhautdystrophie,Distropía corneal OS,Distropía corneal
+1a047af3-3c1a-47b6-a50a-f4471e707c03,,Corneal dystrophy OD,Cort + Nuc,,Diagnosis,Coded,Hornhautdystrophie OD,Hornhautdystrophie,Distropía corneal OD,Distropía corneal
+f7ab9758-bab4-4de0-a9f1-fc9315de9c8b,,Corneal scar OS,Corneal Scar,,Diagnosis,Coded,Hornhautnarbe OS,Hornhautnarbe,Cicatriz corneal OS,Cicatriz corneal
+3e481ec2-da4b-4250-87f7-43640d592940,,Corneal scar OD,Corneal Scar,,Diagnosis,Coded,Hornhautnarbe OD,Hornhautnarbe,Cicatriz corneal OD,Cicatriz corneal
+92a74dea-c1f4-4c2e-94fa-b91460f2d3b9,,Retinal scar OS,Retinal Scar,,Diagnosis,Coded,Retinanarbe OS,Retinanarbe,Cicatriz retinaria OS,Cicatriz retinaria
+4bd91467-220b-416c-a320-7ba855e62c92,,Retinal scar OD,Retinal Scar,,Diagnosis,Coded,Retinanarbe OD,Retinanarbe,Cicatriz retinaria OD,Cicatriz retinaria
+1d28146e-107d-4f16-a876-b1d87bef2131,,Dry eye syndrome OS,ECCE,,Diagnosis,Coded,Trockenaugensyndrom OS,Trockenaugensyndrom,Sindrome de ojo seco OS,Sindrome de ojo seco
+e020c228-5586-4c12-97d0-f9b1eee8c715,,Dry eye syndrome OD,ECCE,,Diagnosis,Coded,Trockenaugensyndrom OD,Trockenaugensyndrom,Sindrome de ojo seco OD,Sindrome de ojo seco
+d070535b-2b25-46c8-909a-0aa2341e1b8c,,Pterygium OS,Ptg sx,,Diagnosis,Coded,Pterygium OS,Pterygium,Pterigión OS,Pterigión
+7fb6acd4-0c74-458d-b78a-35cf86ca3244,,Pterygium OD,Ptg sx,,Diagnosis,Coded,Pterygium OD,Pterygium,Pterigión OD,Pterigión
+a02e2265-13d6-4a5b-8a7f-e28095bc8e7a,,Cataract OS,Cat sx,,Diagnosis,Coded,Katarakt OS,Katarakt,Catarata OS,Catarata
+25819d84-6d96-4e4d-ad72-afdc730a0dde,,Cataract OD,Cat sx,,Diagnosis,Coded,Katarakt OD,Katarakt,Catarata OD,Catarata
+828cc0f2-42f4-4084-a53b-4020c29d0f5c,,Pseudophakia OS,Ptg,,Finding,Coded,Pseudophakie OS,Pseudophakie,Pseudofaquía OS,Pseudofaquía
+02594842-dcb9-4565-9477-ecebfb32a990,,Pseudophakia OD,Ptg,,Finding,Coded,Pseudophakie OD,Pseudophakie,Pseudofaquía OD,Pseudofaquía
+05409d07-9d08-49e7-8d57-8817e9d3efcf,,Status post uveitis OS,Estra,,Diagnosis,Coded,Zustand nach Uveitis OS,Zustand nach Uveitis,St.p. Uveítis OS,St.p. Uveítis
+2ad014fe-a5dc-47cc-8ee5-1da086e6dd60,,Status post uveitis OD,Estra,,Diagnosis,Coded,Zustand nach Uveitis OD,Zustand nach Uveitis,St.p. Uveítis OD,St.p. Uveítis
+54778351-6178-4454-ac14-eb3a22b392f1,,Glaucoma OS,HA,,Diagnosis,Coded,Glaukom OS,Glaukom,Glaucoma OS,Glaucoma
+5ea24f07-e0c6-4046-9fa4-90f3cdc76482,,Glaucoma OD,HA,,Diagnosis,Coded,Glaukom OD,Glaukom,Glaucoma OD,Glaucoma
+d3d68bab-cca8-4c9f-a122-ff21b3c05d0e,,Diabetic retinopathy OS,DES,,Diagnosis,Coded,Diabetische Retinopathie OS,Diabetische Retinopathie,Retinopatía Diabética OS,Retinopatía Diabética
+562de092-1493-476e-9361-d0d4f6d866b7,,Diabetic retinopathy OD,DES,,Diagnosis,Coded,Diabetische Retinopathie OD,Diabetische Retinopathie,Retinopatía Diabética OD,Retinopatía Diabética
+0c0b2adc-5e3a-4cf9-aa56-4ee968e8d55c,,Age-related macular degeneration OS,Amb,,Diagnosis,Coded,Altersabhängige Makuladegeneration OS,Altersabhängige Makuladegeneration,Degeneración macular OS,Degeneración macular
+55973d14-acaf-40e8-95d9-3a2c1f402835,,Age-related macular degeneration OD,Amb,,Diagnosis,Coded,Altersabhängige Makuladegeneration OD,Altersabhängige Makuladegeneration,Degeneración macular OD,Degeneración macular
+7e2714b5-13c1-4be8-8e02-f988b500098a,,Anterior segment other findings OS,?,,Diagnosis,Coded,Andere Vorderabschnittsdiagnosen OS,Andere Vorderabschnittsdiagnosen,Otros Diagnósticos Segmento Anterior OS,Otros Diagnósticos Segmento Anterior
+d84a96e0-7329-4910-a43c-97c7d3109130,,Anterior segment other findings OD,?,,Diagnosis,Coded,Andere Vorderabschnittsdiagnosen OD,Andere Vorderabschnittsdiagnosen,Otros Diagnósticos Segmento Anterior OD,Otros Diagnósticos Segmento Anterior
+17e37625-c24a-4beb-a820-53fe9521f154,,Posterior segment other findings OS,PSC,,Diagnosis,Coded,Andere Hinterabschnittsdiagnosen OS,Andere Hinterabschnittsdiagnosen,Otros Diagnósticos Segmento Posterior OS,Otros Diagnósticos Segmento Posterior
+dd69d697-3b41-4139-b2d7-12a92cf12715,,Posterior segment other findings OD,PSC,,Diagnosis,Coded,Andere Hinterabschnittsdiagnosen OD,Andere Hinterabschnittsdiagnosen,Otros Diagnósticos Segmento Posterior OD,Otros Diagnósticos Segmento Posterior
+27e5e48a-d74b-4377-a04a-b15b4ef15371,,Glasses prescription OS,Glauc,,Diagnosis,Coded,Brillenrezept OS,Brillenrezept,Gafas prescritas OS,Gafas prescritas
+bfa799f5-1f26-472d-98ed-4a148b029392,,Glasses prescription OD,Glauc,,Diagnosis,Coded,Brillenrezept OD,Brillenrezept,Gafas prescritas OD,Gafas prescritas
+d4fc5b91-c84c-4db7-857e-bf6f46babfb8,,Cataract surgery OS,Cat Techn,,Procedure,Coded,Kataraktoperation OS,Kataraktoperation,Cirugía de catarata OS,Cirugía de catarata
+a110a903-4606-4926-a545-cfae960d85b0,,Cataract surgery OD,Cat Techn,,Procedure,Coded,Kataraktoperation OD,Kataraktoperation,Cirugía de catarata OD,Cirugía de catarata
+1ebdd04e-2ca3-4c5f-8ff8-14a56a58beb4,,Pterygium surgery OS,Ptg Astig,,Procedure,Coded,Pterygiumoperation OS,Pterygiumoperation,Cirugía de pterigión OS,Cirugía de pterigión
+3a665abe-cada-46de-937a-3926718bdbc2,,Pterygium surgery OD,Ptg Astig,,Procedure,Coded,Pterygiumoperation OD,Pterygiumoperation,Cirugía de pterigión OD,Cirugía de pterigión
+231f45ce-3942-403c-9198-d7f5d7a12c44,,Glasses donated,Glasses Rx,,Procedure,Coded,Brille geschenkt,Brille geschenkt,Donación de gafas,Donación de gafas
+649bc21a-7256-49ac-9089-7b33d1c8a869,,Phacoemulsification OS,PCR,,Finding,Coded,Phakoemulsifikation OS,Phakoemulsifikation,Phacoemulsificación OS,Phacoemulsificación
+0200296c-1191-41da-a545-498a13f4077f,,Phacoemulsification OD,PCR,,Finding,Coded,Phakoemulsifikation OD,Phakoemulsifikation,Phacoemulsificación OD,Phacoemulsificación
+09395d65-1f11-40cc-8ed6-16c93f8faa43,,Small-incision cataract surgery OS,Sph,,Finding,Coded,Small-Incision-Kataraktchirurgie OS,Small-Incision-Kataraktchirurgie,SICS OS,SICS
+6dc4e116-07ea-42cd-af2d-0b019d285f41,,Small-incision cataract surgery OD,Sph,,Finding,Coded,Small-Incision-Kataraktchirurgie OD,Small-Incision-Kataraktchirurgie,SICS OD,SICS
+7b7f1ae4-8648-44fc-bc39-5c2daae49321,,Extracapsular cataract extraction OS,Eye drops,,Finding,Coded,Extrakapsuläre Kataraktextraktion OS,Extrakapsuläre Kataraktextraktion,ECCE OS,ECCE
+564abbe7-ee53-4af4-97ff-56f51f7c5945,,Extracapsular cataract extraction OD,Eye drops,,Finding,Coded,Extrakapsuläre Kataraktextraktion OD,Extrakapsuläre Kataraktextraktion,ECCE OD,ECCE
+63292060-d243-4f22-8cea-2e1037cddd5b,,Posterior chamber IOL OS,PP,,Procedure,Coded,Hinterkammerlinse OS,Hinterkammerlinse,Lente intraocular en cámara posterior OS,Lente intraocular en cámara posterior
+e6e5df76-e14e-4c26-afb7-87188c668739,,Posterior chamber IOL OD,PP,,Procedure,Coded,Hinterkammerlinse OD,Hinterkammerlinse,Lente intraocular en cámara posterior OD,Lente intraocular en cámara posterior
+588c42ce-1e06-4564-917e-8cb92aeecabc,,Anterior chamber IOL OS,Ant Seg Dx,,Procedure,Coded,Vorderkammerlinse OS,Vorderkammerlinse,Lente intraocular en cámara anterior OS,Lente intraocular en cámara anterior
+d05dde65-5c3f-4c2a-84dc-64f73241816d,,Anterior chamber IOL OD,Ant Seg Dx,,Procedure,Coded,Vorderkammerlinse OD,Vorderkammerlinse,Lente intraocular en cámara anterior OD,Lente intraocular en cámara anterior
+da9f0f58-8c71-47f9-a88e-a3da1377f55b,,No IOL implanted OS,OP,,Procedure,Coded,Aphakie OS,Aphakie,Afaquia OS,Afaquia
+2ceebf6b-52ed-4edd-890a-7e667746ae55,,No IOL implanted OD,OP,,Procedure,Coded,Aphakie OD,Aphakie,Afaquia OD,Afaquia
+37a6d331-902a-4688-8123-4ca37762c853,,Glasses prescribed,Glasses Rx,,Procedure,Coded,Brillenrezept,Brillenrezept,Gafas prescritas,Gafas prescritas
+fdde07dd-ec3d-496a-9a56-6e4b2e2c28a2,,Operation,OP,,Procedure,Text,Operation,Operation,Operación,Operación
+def947fa-6c2f-431d-8f76-5a6743912f9d,,General Ophthalmological Findings,General Ophthalmological Findings,General Ophthalmological Findings,ConvSet,N/A,Allgemeine ophthalmologische Befunde,Allgemeine ophthalmologische Befunde,Hallazgos oftalmológicos generales,Hallazgos oftalmológicos generales
+fbb3db2c-23a1-4657-ae54-3bf352af8345,,Eye examination findings OS,Irrit,,ConvSet,N/A,Augenuntersuchung Befund OS,Augenuntersuchung Befund,Hallazgos del examen ocular OS,Hallazgos del examen ocular
+160061cf-a290-4700-8402-aa462c7c1b34,,Anterior segment diagnoses OS,Ant Seg Dx Otros,,ConvSet,N/A,Vorderabschnittsdiagnosen OS,Vorderabschnittsdiagnosen,Diagnósticos Segmento Anterior OS,Diagnósticos Segmento Anterior
+fe72357e-6a01-4a19-81dc-f834e7634069,,Posterior segment diagnoses OS,Post Seg Dx Otros,,ConvSet,N/A,Hinterabschnittsdiagnosen OS,Hinterabschnittsdiagnosen,Diagnósticos Segmento Posterior OS,Diagnósticos Segmento Posterior
+d60d323d-5b93-4268-ac93-406c5d6cb32f,,Cataract morphology / grade OS,Cat sx,,ConvSet,N/A,Kataraktgrad / Morphologie OS,Kataraktgrad / Morphologie,Morfología / grado de catarata OS,Morfología / grado de catarata
+05bc0a66-25a3-4af7-a6e4-7800bc601771,,Cataract surgical technique OS,Dist Cor,,ConvSet,N/A,Katarakt-Operationstechnik OS,Katarakt-Operationstechnik,Técnica quirúrgica de catarata OS,Técnica quirúrgica de catarata
+d0ccd548-de07-4295-a5f1-058984a908f3,,IOL placement OS,IOL D,,ConvSet,N/A,Intraokularlinsenlage OS,Intraokularlinsenlage,Colocación de lente intraocular OS,Colocación de lente intraocular
+776c865a-9a38-4701-a43f-110ac7f9807f,,IOL specifications OS,IOL type,,ConvSet,N/A,Intraokularlinsen Charakteristiken OS,Intraokularlinsen Charakteristiken,Detalles de LIO OS,Detalles de LIO
+a6ce3543-715c-44d9-9dfe-666fcd787103,,Cataract surgery complications OS,Cat Techn,,ConvSet,N/A,Katarakt-OP-Komplikationen OS,Katarakt-OP-Komplikationen,Complicaciones de cirugía de catarata OS,Complicaciones de cirugía de catarata
+acbc93e9-4a90-4e6c-bf01-3f08ae9cee56,,Autorefraction OS,?,,ConvSet,N/A,Achse OS,Achse,Eje OS,Eje
+de5ec392-f21d-4820-be5f-ab311c627381,,Subjective Refraction OS,Treatment,,ConvSet,N/A,Chirurg (Name) OS,Chirurg (Name),Cirujano (nombre) OS,Cirujano (nombre)
+925100b4-7b60-4ce9-b9ca-82fe1098a0a4,,Eye examination findings OD,Irrit,,ConvSet,N/A,Augenuntersuchung Befund OD,Augenuntersuchung Befund,Hallazgos del examen ocular OD,Hallazgos del examen ocular
+2dd7f329-209a-4ec1-93d7-0b7329154366,,Anterior segment diagnoses OD,Ant Seg Dx Otros,,ConvSet,N/A,Vorderabschnittsdiagnosen OD,Vorderabschnittsdiagnosen,Diagnósticos Segmento Anterior OD,Diagnósticos Segmento Anterior
+45503f1c-ca8d-4237-9abd-247b10366f92,,Posterior segment diagnoses OD,Post Seg Dx Otros,,ConvSet,N/A,Hinterabschnittsdiagnosen OD,Hinterabschnittsdiagnosen,Diagnósticos Segmento Posterior OD,Diagnósticos Segmento Posterior
+054a54fb-923a-4467-9ec3-b6c0af9fd0bf,,Cataract morphology / grade OD,Cat sx,,ConvSet,N/A,Kataraktgrad / Morphologie OD,Kataraktgrad / Morphologie,Morfología / grado de catarata OD,Morfología / grado de catarata
+51101b5e-7ca5-4008-8bd1-74d787aeb2ad,,Cataract surgical technique OD,Dist Cor,,ConvSet,N/A,Katarakt-Operationstechnik OD,Katarakt-Operationstechnik,Técnica quirúrgica de catarata OD,Técnica quirúrgica de catarata
+2de47e93-a33c-476a-8b6e-ebe296327870,,IOL placement OD,IOL D,,ConvSet,N/A,Intraokularlinsenlage OD,Intraokularlinsenlage,Colocación de lente intraocular OD,Colocación de lente intraocular
+59ca4f7a-d838-418b-a598-763a79495f19,,IOL specifications OD,IOL type,,ConvSet,N/A,Intraokularlinsen Charakteristiken OD,Intraokularlinsen Charakteristiken,Detalles de LIO OD,Detalles de LIO
+36413abf-d2e7-44da-9744-98eed02f86d0,,Cataract surgery complications OD,Cat Techn,,ConvSet,N/A,Katarakt-OP-Komplikationen OD,Katarakt-OP-Komplikationen,Complicaciones de cirugía de catarata OD,Complicaciones de cirugía de catarata
+9b3eadba-34c8-42d2-aaa0-51f052ca1125,,Treatment,Treatment,,ConvSet,N/A,Behandlung,Behandlung,Terapia,Terapia
+b28533a9-4b4b-4ad6-8f79-43eff85db8c9,,Autorefraction OD,?,,ConvSet,N/A,Achse OD,Achse,Eje OD,Eje
+ff262b78-3c41-4bb7-aa78-2cca2fa53b1b,,Subjective Refraction OD,Treatment,,ConvSet,N/A,Chirurg (Name) OD,Chirurg (Name),Cirujano (nombre) OD,Cirujano (nombre)
+b1b9b4b2-fab7-4636-97c3-cc32dc580520,,Visual Acuity without correction OS,VL,,Test,Text,Visus ohne Korrektur OS,Visus ohne Korrektur,Agudeza visual sin corrección OS,Agudeza visual sin corrección
+f3cd0d08-b0d0-4a17-845e-bb79c1b79ae2,,Visual Acuity without correction OD,VL,,Test,Text,Visus ohne Korrektur OD,Visus ohne Korrektur,Agudeza visual sin corrección OD,Agudeza visual sin corrección
+a7901c3b-098c-457b-8325-c5c62dd290c7,,Visual Acuity with correction OS,sc,,Test,Text,Visus mit Korrektur OS,Visus mit Korrektur,Agudeza visual con corrección OS,Agudeza visual con corrección
+5293150c-4fd4-4e27-a78f-26286cd93535,,Visual Acuity with correction OD,sc,,Test,Text,Visus mit Korrektur OD,Visus mit Korrektur,Agudeza visual con corrección OD,Agudeza visual con corrección
+30fe53a8-dbc4-437f-af0c-94feb164e40b,,Intraocular pressure OS,Intumescent,,Test,Numeric,Intraokulardruck OS,Intraokulardruck,Presión intraocular OS,Presión intraocular
+488a17f5-4a39-4306-993c-cf355535ae71,,Intraocular pressure OD,Intumescent,,Test,Numeric,Intraokulardruck OD,Intraokulardruck,Presión intraocular OD,Presión intraocular
+f533bbb2-b4f2-4b5d-9bee-d87b3df43c80,,Spherical refraction OS,Post-uveitis,,Test,Numeric,Sphäre OS,Sphäre,Esfera OS,Esfera
+3b2ed532-94d9-4993-926d-ed16a4506098,,Spherical refraction OD,Post-uveitis,,Test,Numeric,Sphäre OD,Sphäre,Esfera OD,Esfera
+5028e6eb-22d8-4ed5-bc47-e5b12e29bc17,,Cylinder refraction OS,DR,,Test,Numeric,Zylinder OS,Zylinder,Cilindrica OS,Cilindrica
+9ef4fe57-ed49-4da7-9e43-68d89e1c1174,,Cylinder refraction OD,DR,,Test,Numeric,Zylinder OD,Zylinder,Cilindrica OD,Cilindrica
+fa80379f-1cb1-4c3f-98a9-11fa7a9ec244,,Axis OS,Blur far,,Test,Numeric,Achse OS,Achse,Eje OS,Eje
+10d72fea-d056-4b4e-a2fe-36203bf463d7,,Axis OD,Blur far,,Test,Numeric,Achse OD,Achse,Eje OD,Eje
+e65c0cb4-0da5-414d-8698-d7bc8ecb064d,,Registration,Registration,Registration,Misc,N/A,Anmeldung,Anmeldung,Registro,Registro
+979638e1-99cc-43a3-9410-8900626f479d,,Refraction Service,Refraction Service,Refraction Service,Misc,N/A,Refraktionsdienst,Refraktionsdienst,Servicio de refracción,Servicio de refracción
+fb917c2d-b770-4f80-82b6-f78f386397a5,,Eye Exam,Eye Exam,Eye Exam,Misc,N/A,Augenuntersuchung,Augenuntersuchung,Examen de la vista,Examen de la vista
+d970478a-40f5-48db-b6a8-a36c66a52d45,,Therapy,Therapy,Therapy,Misc,N/A,Therapie,Therapie,Terapia,Terapia
+4b64d18b-d8d1-4325-972e-ba7552049366,,Pre-Surgery,Pre-Surgery,Pre-Surgery,Misc,N/A,Vor der Operation,Vor der Operation,Preoperatorio,Preoperatorio
+87593930-fb12-4300-ae4b-21e7abd913d7,,Surgery,Surgery,Surgery,Misc,N/A,Chirurgische Operation,Chirurgische Operation,Operación quirúrgica,Operación quirúrgica
+b1a6d6b0-0001-4bda-9f6a-000000000000,,Service,Service,Service,ConvSet,N/A,Service,Service,Servicio,Servicio
+5bec98ce-0f2f-4daf-926e-7adc87488b17,,Best Corrected Visual Acuity,Best Corrected Visual Acuity,Best Corrected Visual Acuity,Finding,Numeric,Beste korrigierte Sehschärfe,Beste korrigierte Sehschärfe,Mejor agudeza visual corregida,Mejor agudeza visual corregida
+38d49b21-5a2f-45dc-b5b3-4b281ddf8b3c,,Necessary before surgery OS,Necessary before surgery,Necessary before surgery,Finding,Coded,Vor der Operation erforderlich OS,Vor der Operation erforderlich,Necesario antes de la cirugía OS,Necesario antes de la cirugía
+38d49b21-5a2f-45dc-b5b3-4b281ddf8b3c,,Necessary before surgery OD,Necessary before surgery,Necessary before surgery,Finding,Coded,Vor der Operation erforderlich OD,Vor der Operation erforderlich,Necesario antes de la cirugía OD,Necesario antes de la cirugía
+53c7bc33-e5fb-443a-b6f0-864565c33c1e,,Commentary (Pre-OP),Commentary (Pre-OP),Commentary (Pre-OP),Finding,Text,Kommentar (Pre-OP),Kommentar (Pre-OP),Misceáneas (Pre-OP),Misceáneas (Pre-OP)
+e0fda258-8616-44b9-b376-e118ecf44281,,Commentary (Post-OP),Commentary (Post-OP),Commentary (Post-OP),Finding,Text,Kommentar (Post-OP),Kommentar (Post-OP),Misceáneas (Post-OP),Misceáneas (Post-OP)
+f14a956b-8615-4a02-bd99-310139faaa1e,,Anestesia,Anestesia,Anestesia,Finding,Coded,Anesthesie,Anesthesie,Anestesía,Anestesía
+8b134a65-1726-4a14-946c-c28df9c3fd00,,Surgeon (Name),Surgeon (Name),Surgeon (Name),Finding,Coded,Chirurg (Name),Chirurg (Name),Cirujano (nombre),Cirujano (nombre)
+28903c51-69d9-407c-a4ef-e2104b03521e,,Other Complication OS,Other Complication,Other Complication,Finding,Coded,Andere Komplikation OS,Andere Komplikation,Otra complicación OS,Otra complicación
+204823ec-4147-46f9-a474-0fb8a21cde81,,Other Complication OD,Other Complication,Other Complication,Finding,Coded,Andere Komplikation OD,Andere Komplikation,Otra complicación OD,Otra complicación
+289cd622-fc87-42ea-8ee1-d31bd27f2bc7,,With transplant OS,With transplant,With transplant,Finding,Coded,Ohne Transplantation OS,Ohne Transplantation,Sin transplante OS,Sin transplante
+79b8e5cd-0ddb-41bb-878e-cdca18898c15,,With transplant OD,With transplant,With transplant,Finding,Coded,Ohne Transplantation OD,Ohne Transplantation,Sin transplante OD,Sin transplante
+e5c18cf0-580a-4513-b9a9-86f0101d9169,,Without transplant OS,Without transplant,Without transplant,Finding,Coded,Mit Transplantation OS,Mit Transplantation,Con transplante OS,Con transplante
+b817e36f-669d-4a1c-b3e3-886f48bb639b,,Without transplant OD,Without transplant,Without transplant,Finding,Coded,Mit Transplantation OD,Mit Transplantation,Con transplante OD,Con transplante
+5573dfb9-a86f-4969-86b7-1d96edc82225,,MMC/5-FU OS,MMC/5-FU,MMC/5-FU,Finding,Coded,MMC/5-FU OS,MMC/5-FU,MMC/5-FU OS,MMC/5-FU
+5573dfb9-a86f-4969-86b7-1d96edc82225,,MMC/5-FU OD,MMC/5-FU,MMC/5-FU,Finding,Coded,MMC/5-FU OD,MMC/5-FU,MMC/5-FU OD,MMC/5-FU
+1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,Yes,Yes,Affirmative answer,Misc,N/A,Ja,Ja,Sí,Sí
+1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,,No,No,Negative answer,Misc,N/A,Nein,Nein,No,No
