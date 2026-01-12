@@ -49,6 +49,26 @@
     "Brand color #1": "#005d5d"
   },
   "@openmrs/esm-patient-registration-app": {
+    "fieldDefinitions": [
+      {
+        "id": "canRead",
+        "name": "Can Read",
+        "label": "Can Read",
+        "type": "person attribute",
+        "uuid": "1f8e8e8b-4b2c-4d81-96f8-c55c07293530",
+        "answerConceptSetUuid": "159400AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "required": false
+      }
+    ],
+    "sectionDefinitions": [
+      {
+        "id": "literacy",
+        "name": "Literacy Information",
+        "fields": [
+          "canRead"
+        ]
+      }
+    ],
     "fieldConfigurations": {
       "gender": [
         {
@@ -66,6 +86,18 @@
       "contact"
     ],
     "sectionDefinitions": []
+  },
+  "@openmrs/esm-patient-orders-app": {
+    "orderTypes": [
+      {
+        "orderTypeUuid": "7e5f3547-eb3f-11f0-88ce-2a007c912d5f",
+        "label": "Procedure orders",
+        "icon": "omrs-icon-procedure",
+        "orderableConceptSets": [
+          "16ed42e9-1232-432d-9777-b44ff5ec3739"
+        ]
+      }
+    ]
   },
   "@augen-auf/openmrs-esm-augen-auf": {
     "stages": [
