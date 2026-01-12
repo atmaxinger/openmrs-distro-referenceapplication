@@ -70,15 +70,37 @@
   "@augen-auf/openmrs-esm-augen-auf": {
     "stages": [
       {
-        "id": "refraction",
+        "id": "registration-form",
         "label": {
-          "en": "Refraction",
-          "de": "Refraktion",
-          "es": "Refracción"
+          "en": "Registration Form",
+          "de": "Registrierungs Formular",
+          "es": "Registration Form"
+        },
+        "enabled": true,
+        "queueUuid": "310b9d28-737d-45d2-8b6a-f059aac6cea8",
+        "formUuid": "AUA Registration"
+      },
+      {
+        "id": "auto-refraction",
+        "label": {
+          "en": "Auto Refraction",
+          "de": "Auto Refraktion",
+          "es": "Autorefracción"
         },
         "enabled": true,
         "queueUuid": "cbb6ec0c-c6c7-4e31-a6a6-3c447a29d95b",
-        "formUuid": "AUA Refraction"
+        "formUuid": "AUA AutoRefraction"
+      },
+      {
+        "id": "subjective-refraction",
+        "label": {
+          "en": "Subjective Refraction",
+          "de": "Subjektive Refraktion",
+          "es": "Refracción Subjetiva"
+        },
+        "enabled": true,
+        "queueUuid": "c5f52586-e1bc-48cb-afde-d1a027139e8b",
+        "formUuid": "AUA SubjectiveRefraction"
       },
       {
         "id": "eye-exam",
