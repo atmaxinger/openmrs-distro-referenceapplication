@@ -1,14 +1,14 @@
 {
   "name": "AUA Therapy",
   "description": "Therapy decisions and prescriptions",
-  "version": "1.0",
+  "version": "1.1",
   "published": true,
   "retired": false,
-  "encounter": "Visit Note",
+  "encounter": "Doctor Visit",
   "encounterType": "e4c30030-3005-4fdd-9f6a-555555555555",
   "processor": "EncounterFormProcessor",
   "referencedForms": [],
-  "uuid": "sms-aua-therapy-form-0004",
+  "uuid": "afe69509-e592-461e-9143-a0e1f0a746eb",
   "pages": [
     {
       "label": "Therapy",
@@ -18,38 +18,32 @@
           "isExpanded": "true",
           "questions": [
             {
-              "id": "glasses-gifted-od",
-              "label": "Glasses gifted (OD)",
+              "id": "glasses-donated",
+              "label": "Glasses donated",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "482e023f-2f2b-4c1a-897b-6180c989a9a4",
+                "concept": "AUA-P-004",
                 "answers": [
-                  { "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Yes" }
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
                 ]
               }
             },
             {
-              "id": "glasses-gifted-os",
-              "label": "Glasses gifted (OS)",
+              "id": "glasses-prescribed",
+              "label": "Glasses prescribed",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "231f45ce-3942-403c-9198-d7f5d7a12c44",
+                "concept": "AUA-P-012",
                 "answers": [
-                  { "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Yes" }
-                ]
-              }
-            },
-            {
-              "id": "glasses-prescription",
-              "label": "Prescription glasses",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "37a6d331-902a-4688-8123-4ca37762c853",
-                "answers": [
-                  { "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Yes" }
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
                 ]
               }
             }
@@ -65,9 +59,12 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "b44709ce-2a25-4ac4-87d2-b4c611a3c9bf",
+                "concept": "AUA-M-001-R",
                 "answers": [
-                  { "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Yes" }
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
                 ]
               }
             },
@@ -77,9 +74,12 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "a2a87870-594a-461f-891e-7bf276391bef",
+                "concept": "AUA-M-001-L",
                 "answers": [
-                  { "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Yes" }
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
                 ]
               }
             }
@@ -91,11 +91,11 @@
           "questions": [
             {
               "id": "operation-recommended",
-              "label": "Operation (OP) recommended",
+              "label": "Operation",
               "type": "obs",
               "questionOptions": {
                 "rendering": "textarea",
-                "concept": "fdde07dd-ec3d-496a-9a56-6e4b2e2c28a2",
+                "concept": "AUA-P-013",
                 "rows": 3
               }
             }

@@ -1,0 +1,648 @@
+{
+  "name": "AUA Surgery",
+  "description": "Surgical procedure documentation - Post-surgery record",
+  "version": "1.1",
+  "published": true,
+  "retired": false,
+  "encounter": "Surgery",
+  "encounterType": "518f2880-f5fe-4b62-9e31-84e02ad3a0a0",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
+  "uuid": "f7e8ad88-cfcf-4732-8e3a-cde3cdf1a202",
+  "pages": [
+    {
+      "label": "Cataract Surgery",
+      "sections": [
+        {
+          "label": "Right Eye (OD) - Cataract Procedure",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "cataract-surgery-od",
+              "label": "Cataract surgery",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-001-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "phako-od",
+              "label": "Phacoemulsification",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-005-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sics-od",
+              "label": "Small-incision cataract surgery",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-006-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ecce-od",
+              "label": "Extracapsular cataract extraction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-007-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Right Eye (OD) - IOL",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "pc-iol-od",
+              "label": "Posterior chamber IOL",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-008-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ac-iol-od",
+              "label": "Anterior chamber IOL",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-009-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "no-iol-od",
+              "label": "No IOL implanted",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-011-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "iol-type-od",
+              "label": "IOL type",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-F-011-R"
+              }
+            },
+            {
+              "id": "iol-strength-od",
+              "label": "IOL strength",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-F-012-R"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Right Eye (OD) - Complications",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "no-complication-od",
+              "label": "No complication",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-013-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "zonular-dehiscence-od",
+              "label": "Zonular dehiscence",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-014-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "capsule-rupture-od",
+              "label": "Posterior capsule rupture",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-015-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "vitreous-loss-od",
+              "label": "Vitreous loss",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-016-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "retained-lens-od",
+              "label": "Retained lens matter",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-017-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "other-complication-od",
+              "label": "Other Complication",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F024-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - Cataract Procedure",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "cataract-surgery-os",
+              "label": "Cataract surgery",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-001-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "phako-os",
+              "label": "Phacoemulsification",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-005-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "sics-os",
+              "label": "Small-incision cataract surgery",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-006-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ecce-os",
+              "label": "Extracapsular cataract extraction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-007-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - IOL",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "pc-iol-os",
+              "label": "Posterior chamber IOL",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-008-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ac-iol-os",
+              "label": "Anterior chamber IOL",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-009-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "no-iol-os",
+              "label": "No IOL implanted",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-010-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "iol-type-os",
+              "label": "IOL type",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-F-011-L"
+              }
+            },
+            {
+              "id": "iol-strength-os",
+              "label": "IOL strength",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-F-012-L"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - Complications",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "no-complication-os",
+              "label": "No complication",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-013-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "zonular-dehiscence-os",
+              "label": "Zonular dehiscence",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-014-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "capsule-rupture-os",
+              "label": "Posterior capsule rupture",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-015-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "vitreous-loss-os",
+              "label": "Vitreous loss",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-016-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "retained-lens-os",
+              "label": "Retained lens matter",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-017-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "other-complication-os",
+              "label": "Other Complication",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F024-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Pterygium Surgery",
+      "sections": [
+        {
+          "label": "Right Eye (OD) - Pterygium",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "pterygium-surgery-od",
+              "label": "Pterygium surgery",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-002-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-with-transplant-od",
+              "label": "With transplant",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F025-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-without-transplant-od",
+              "label": "Without transplant",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F026-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-mmc-od",
+              "label": "MMC/5-FU",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F027-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - Pterygium",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "pterygium-surgery-os",
+              "label": "Pterygium surgery",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-P-002-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-with-transplant-os",
+              "label": "With transplant",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F025-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-without-transplant-os",
+              "label": "Without transplant",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F026-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-mmc-os",
+              "label": "MMC/5-FU",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F027-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Post-Surgery Notes",
+      "sections": [
+        {
+          "label": "Surgery Documentation",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "surgeon",
+              "label": "Surgeon (Name)",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-F023"
+              }
+            },
+            {
+              "id": "postop-commentary",
+              "label": "Commentary (Post-OP)",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "AUA-F-021",
+                "rows": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

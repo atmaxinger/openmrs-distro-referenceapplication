@@ -1,0 +1,119 @@
+{
+  "name": "AUA Subjective Refraction",
+  "description": "Subjective Vision and refraction measurements",
+  "version": "1.1",
+  "published": true,
+  "retired": false,
+  "encounter": "Subjective Refraction",
+  "encounterType": "e4c30030-3003-4fdd-9f6a-333333333333",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
+  "uuid": "870e8ffd-e57f-4f79-b5bc-beef7685daa8",
+  "pages": [
+    {
+      "label": "Subjective Refraction",
+      "sections": [
+        {
+          "label": "Right Eye (OD) - Visual Acuity",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "sc-od",
+              "label": "Visual Acuity without correction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-T-001-R"
+              }
+            },
+            {
+              "id": "cc-od",
+              "label": "Visual Acuity with correction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-T-002-R"
+              }
+            },
+            {
+              "id": "iop-od",
+              "label": "Intraocular pressure",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-003-R",
+                "min": 0,
+                "max": 80
+              }
+            },
+            {
+              "id": "glasses-prescription-od",
+              "label": "Glasses prescription",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-015-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - Visual Acuity",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "sc-os",
+              "label": "Visual Acuity without correction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-T-001-L"
+              }
+            },
+            {
+              "id": "cc-os",
+              "label": "Visual Acuity with correction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-T-002-L"
+              }
+            },
+            {
+              "id": "iop-os",
+              "label": "Intraocular pressure",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-003-L",
+                "min": 0,
+                "max": 80
+              }
+            },
+            {
+              "id": "glasses-prescription-os",
+              "label": "Glasses prescription",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-015-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

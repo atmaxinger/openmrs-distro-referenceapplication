@@ -1,0 +1,528 @@
+{
+  "name": "AUA Eye Exam",
+  "description": "Eye examination - Anterior and Posterior segment findings",
+  "version": "1.1",
+  "published": true,
+  "retired": false,
+  "encounter": "Consultation",
+  "encounterType": "e4c30030-3004-4fdd-9f6a-444444444444",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
+  "uuid": "AUA-FORM-03",
+  "pages": [
+    {
+      "label": "Anterior Segment",
+      "sections": [
+        {
+          "label": "Right Eye (OD) - Anterior Segment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "presbyopia-od",
+              "label": "Presbyopia",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-001-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "amblyopia-od",
+              "label": "Amblyopia",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-002-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "strabismus-od",
+              "label": "Strabismus",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-003-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "corneal-dystrophy-od",
+              "label": "Corneal dystrophy",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-004-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dry-eye-syndrome-od",
+              "label": "Dry eye syndrome",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-005-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-od",
+              "label": "Pterygium",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-006-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cataract-od",
+              "label": "Cataract",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-007-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pseudophakia-od",
+              "label": "Diagnosed Pseudophakia",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-008-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "uveitis-od",
+              "label": "Status post uveitis",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-009-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "corneal-scar-od",
+              "label": "Corneal scar",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-016-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "anterior-other-od",
+              "label": "Anterior segment other findings",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-013-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - Anterior Segment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "presbyopia-os",
+              "label": "Presbyopia",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-001-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "amblyopia-os",
+              "label": "Amblyopia",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-002-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "strabismus-os",
+              "label": "Strabismus",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-003-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "corneal-dystrophy-os",
+              "label": "Corneal dystrophy",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-004-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dry-eye-syndrome-os",
+              "label": "Dry eye syndrome",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-005-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pterygium-os",
+              "label": "Pterygium",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-006-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cataract-os",
+              "label": "Cataract",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-007-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pseudophakia-os",
+              "label": "Diagnosed Pseudophakia",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-008-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "uveitis-os",
+              "label": "Status post uveitis",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-009-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "corneal-scar-os",
+              "label": "Corneal scar",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-016-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "anterior-other-os",
+              "label": "Anterior segment other findings",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-013-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Posterior Segment",
+      "sections": [
+        {
+          "label": "Right Eye (OD) - Posterior Segment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "glaucoma-od",
+              "label": "Glaucoma",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-010-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "diabetic-retinopathy-od",
+              "label": "Diabetic retinopathy",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-011-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "macular-degeneration-od",
+              "label": "Age-related macular degeneration",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-012-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "retinal-scar-od",
+              "label": "Retinal scar",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-017-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "posterior-other-od",
+              "label": "Posterior segment other findings",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-014-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) - Posterior Segment",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "glaucoma-os",
+              "label": "Glaucoma",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-010-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "diabetic-retinopathy-os",
+              "label": "Diabetic retinopathy",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-011-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "macular-degeneration-os",
+              "label": "Age-related macular degeneration",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-012-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "retinal-scar-os",
+              "label": "Retinal scar",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-017-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "posterior-other-os",
+              "label": "Posterior segment other findings",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-D-014-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

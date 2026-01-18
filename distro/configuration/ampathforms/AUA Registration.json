@@ -1,0 +1,407 @@
+{
+  "name": "AUA Registration",
+  "description": "Patient registration - General health and complaints intake",
+  "version": "1.3",
+  "published": true,
+  "retired": false,
+  "encounter": "Registration",
+  "encounterType": "e4c30030-3002-4fdd-9f6a-222222222222",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
+  "uuid": "e02235d4-95b1-4db2-8221-b2c854e35942",
+  "pages": [
+    {
+      "label": "General Health",
+      "sections": [
+        {
+          "label": "Medical History",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "general-diseases",
+              "label": "General illness",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "AUA-Y-001",
+                "rows": 3
+              }
+            },
+            {
+              "id": "medication",
+              "label": "Medication",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "AUA-Y-002",
+                "rows": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Vision History",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "last-eye-exam",
+              "label": "Last Ophtamological Visit",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "AUA-Y-003"
+              }
+            },
+            {
+              "id": "wears-glasses",
+              "label": "Wears glasses",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-F-001",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "glasses-since",
+              "label": "Wears glasses since",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "date",
+                "concept": "AUA-Y-004"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Complaints",
+      "sections": [
+        {
+          "label": "Right Eye (OD) Complaints",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "near-vision-blur-od",
+              "label": "Blurred near vision",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-005-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "distance-vision-blur-od",
+              "label": "Blurred distance vision",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-006-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "irritation-od",
+              "label": "Eye irritation",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-007-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "floaters-od",
+              "label": "Floaters",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-008-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "flashes-od",
+              "label": "Flashes of light",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-009-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dry-eye-od",
+              "label": "Dry eye sensation",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-010-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pain-od",
+              "label": "Eye Pain",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-011-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "watery-eyes-od",
+              "label": "Watery Eyes",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-012-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "red-eye-od",
+              "label": "Red eye",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-013-R",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Left Eye (OS) Complaints",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "near-vision-blur-os",
+              "label": "Blurred near vision",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-005-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "distance-vision-blur-os",
+              "label": "Blurred distance vision",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-006-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "irritation-os",
+              "label": "Eye irritation",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-007-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "floaters-os",
+              "label": "Floaters",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-008-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "flashes-os",
+              "label": "Flashes of light",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-009-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dry-eye-os",
+              "label": "Dry eye sensation",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-010-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "pain-os",
+              "label": "Eye Pain",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-011-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "watery-eyes-os",
+              "label": "Watery Eyes",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-012-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "red-eye-os",
+              "label": "Red eye",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-013-L",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "General Complaints",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "headache",
+              "label": "Headache",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "AUA-Y-014",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "other-complaints",
+              "label": "Other complaints",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-Y-015",
+                "answers": [
+                  {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Yes"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

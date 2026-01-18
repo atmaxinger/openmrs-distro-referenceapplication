@@ -1,0 +1,121 @@
+{
+  "name": "AUA AutoRefraction",
+  "description": "AR Vision and refraction measurements",
+  "version": "1.2",
+  "published": true,
+  "retired": false,
+  "encounter": "Autorefraction",
+  "encounterType": "e4c30030-3007-4fdd-9f6a-777777777777",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
+  "uuid": "2d8542df-1b9a-499c-9c9e-4a2b8b351627",
+  "pages": [
+    {
+      "label": "Autorefraction OD",
+      "sections": [
+        {
+          "label": "Measurements",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "AUA-CS-011-R",
+              "type": "obsGroup",
+              "questionOptions": {
+                "concept": "AUA-CS-011-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "sph-od",
+                  "label": "Spherical refraction",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-004-R"
+                  }
+                },
+                {
+                  "id": "cyl-od",
+                  "label": "Cylinder refraction",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-005-R"
+                  }
+                },
+                {
+                  "id": "axis-od",
+                  "label": "Axis",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-006-R",
+                    "min": 0,
+                    "max": 180
+                  }
+                },
+                {
+                  "id": "va-ar-cc-od",
+                  "label": "Visual Acuity AR with correction",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "AUA-T-007-R"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "AUA-CS-011-L",
+              "type": "obsGroup",
+              "questionOptions": {
+                "concept": "AUA-CS-011-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "sph-os",
+                  "label": "Spherical refraction",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-004-L"
+                  }
+                },
+                {
+                  "id": "cyl-os",
+                  "label": "Cylinder refraction",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-005-L"
+                  }
+                },
+                {
+                  "id": "axis-os",
+                  "label": "Axis",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-006-L",
+                    "min": 0,
+                    "max": 180
+                  }
+                },
+                {
+                  "id": "va-ar-cc-os",
+                  "label": "Visual Acuity AR with correction",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "AUA-T-007-L"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
