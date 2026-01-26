@@ -1,7 +1,8 @@
 Concept,Member,Member Type,Sort Weight
 Service,Registration,CONCEPT-SET,1
-Service,Refraction Service,CONCEPT-SET,1
-Service,Eye Exam,CONCEPT-SET,1
-Service,Therapy,CONCEPT-SET,1
-Service,Pre-Surgery,CONCEPT-SET,1
-Service,Surgery,CONCEPT-SET,1
+Service,Refraction Service,CONCEPT-SET,2
+Service,Eye Exam,CONCEPT-SET,3
+Service,Therapy,CONCEPT-SET,4
+Service,Pre-Surgery,CONCEPT-SET,5
+Service,Surgery,CONCEPT-SET,6
+Service,Waiting for Service,CONCEPT-SET,7
