@@ -1,249 +1,212 @@
 {
-   "@openmrs/esm-patient-chart-app":{
-      "showAllEncountersTab":true,
-      "visits":{
-         "showAllPastVisits":true,
-         "defaultPastVisitsPeriod":"1y",
-         "visitTypesToShow":[
-            "Facility Visit"
-         ]
-      },
-      "notesConceptUuids":[
-         "AUA-F-020",
-         "AUA-F-021",
-         "AUA-F024-L",
-         "AUA-F024-R",
-         "AUA-F-029",
-         "AUA-F-030"
-      ],
-      "extensionSlots":{
-         "patient-chart-summary-dashboard-slot":{
-            "remove":[
-               "past-medications-widget",
-               "active-medications-widget"
-            ]
-         },
-         "patient-chart-vitals-biometrics-dashboard-slot":{
-            "remove":[
-               "vitals-details-widget"
-            ]
-         },
-         "patient-chart-dashboard-slot":{
-            "remove":[
-               "allergies-summary-dashboard",
-               "billing-summary-dashboard-link",
-               "immunization-summary-dashboard",
-               "medications-summary-dashboard",
-               "patient-orders-summary-dashboard",
-               "programs-summary-dashboard",
-               "patient-appointments-summary-dashboard"
-            ]
-         },
-         "patient-info-slot":{
-            "add":[
-               "obs-table-widget#autorefraction"
-            ],
-            "configure":{
-               "obs-table-widget#autorefraction":{
-                  "title":"Autorefraction (OD & OS)",
-                  "resultName":"Autoref",
-                  "data":[
-                     {
-                        "concept":"AUA-T-004-R",
-                        "label":"Sph OD",
-                        "color":"green",
-                        "graphGroup":"AR",
-                        "decimalPlaces":2
-                     }
-                  ]
-               }
-            }
-         }
-      }
-   },
-   "@openmrs/esm-ward-app":{
-      "extensionSlots":{
-         "action-menu-ward-patient-items-slot":{
-            "add":[
-               "order-basket-action-menu"
-            ]
-         }
-      }
-   },
-   "@openmrs/esm-service-queues-app":{
-      "statusConfigs":[
-         {
-            "conceptUuid":"51ae5e4d-b72b-4912-bf31-a17efb690aeb",
-            "iconComponent":"InProgress"
-         },
-         {
-            "conceptUuid":"ca7494ae-437f-4fd0-8aae-b88b9a2ba47d",
-            "iconComponent":"Group"
-         },
-         {
-            "conceptUuid":"b559fb77-4e1e-4285-b9b7-1d03e0ba983f",
-            "iconComponent":"Group"
-         }
-      ],
-      "concepts":{
-         "defaultPriorityConceptUuid":"f4620bfa-3625-4883-bd3f-84c2cce14470",
-         "emergencyPriorityConceptUuid":"04f6f7e0-e3cb-4e13-a133-4479f759574e",
-         "defaultStatusConceptUuid":"51ae5e4d-b72b-4912-bf31-a17efb690aeb",
-         "defaultTransitionStatus":"ca7494ae-437f-4fd0-8aae-b88b9a2ba47d"
-      },
-      "visitQueueNumberAttributeUuid":"",
-      "defaultFacilityUrl":""
-   },
-   "@openmrs/esm-styleguide":{
-      "Brand color #1":"#005d5d"
-   },
-   "@openmrs/esm-patient-registration-app":{
-      "fieldDefinitions":[
-         {
-            "id":"canRead",
-            "name":"Can Read",
-            "label":"Can Read",
-            "type":"person attribute",
-            "uuid":"1f8e8e8b-4b2c-4d81-96f8-c55c07293530",
-            "answerConceptSetUuid":"159400AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "required":false
-         }
-      ],
-      "sectionDefinitions":[
-         {
-            "id":"literacy",
-            "name":"Literacy Information",
-            "fields":[
-               "canRead"
-            ]
-         }
-      ],
-      "fieldConfigurations":{
-         "gender":[
-            {
-               "value":"male",
-               "label":"Male"
-            },
-            {
-               "value":"female",
-               "label":"Female"
-            }
-         ]
-      },
-      "sections":[
-         "demographics",
-         "contact",
-         "literacy"
+  "@openmrs/esm-patient-chart-app": {
+    "showAllEncountersTab": true,
+    "visits": {
+      "showAllPastVisits": true,
+      "defaultPastVisitsPeriod": "1y",
+      "visitTypesToShow": [
+        "Facility Visit"
       ]
-   },
-   "@openmrs/esm-patient-orders-app":{
-      "orderTypes":[
-         {
-            "orderTypeUuid":"7e5f3547-eb3f-11f0-88ce-2a007c912d5f",
-            "label":"Procedure orders",
-            "icon":"omrs-icon-procedure",
-            "orderableConceptSets":[
-               "16ed42e9-1232-432d-9777-b44ff5ec3739"
-            ]
-         }
-      ]
-   },
-   "@augen-auf/openmrs-esm-augen-auf":{
-      "stages":[
-         {
-            "id":"registration-form",
-            "label":{
-               "en":"Registration Form",
-               "de":"Registrierungs Formular",
-               "es":"Registration Form"
-            },
-            "enabled":true,
-            "queueUuid":"310b9d28-737d-45d2-8b6a-f059aac6cea8",
-            "formUuid":"AUA Registration"
-         },
-         {
-            "id":"auto-refraction",
-            "label":{
-               "en":"Auto Refraction",
-               "de":"Auto Refraktion",
-               "es":"Autorefracción"
-            },
-            "enabled":true,
-            "queueUuid":"cbb6ec0c-c6c7-4e31-a6a6-3c447a29d95b",
-            "formUuid":"AUA AutoRefraction"
-         },
-         {
-            "id":"subjective-refraction",
-            "label":{
-               "en":"Subjective Refraction",
-               "de":"Subjektive Refraktion",
-               "es":"Refracción Subjetiva"
-            },
-            "enabled":true,
-            "queueUuid":"c5f52586-e1bc-48cb-afde-d1a027139e8b",
-            "formUuid":"AUA Subjective Refraction"
-         },
-         {
-            "id":"eye-exam",
-            "label":{
-               "en":"Eye Exam",
-               "de":"Augenuntersuchung",
-               "es":"Examen Ocular"
-            },
-            "enabled":true,
-            "queueUuid":"3eab5184-aa9d-4ef6-8072-d219cd4fbcbf",
-            "formUuid":"AUA Eye Exam"
-         },
-         {
-            "id":"therapy",
-            "label":{
-               "en":"Therapy",
-               "de":"Therapie",
-               "es":"Terapia"
-            },
-            "enabled":true,
-            "queueUuid":"59006885-9096-407d-9428-efbbe6e5c8f3",
-            "formUuid":"AUA Therapy"
-         },
-         {
-            "id":"pre-surgery",
-            "label":{
-               "en":"Pre-Surgery",
-               "de":"Vor-Operation",
-               "es":"Prequirúrgico"
-            },
-            "enabled":true,
-            "queueUuid":"c72ccad1-bec7-4e73-8d03-4a43edb20213",
-            "formUuid":"AUA Pre-Surgery"
-         },
-         {
-            "id":"surgery",
-            "label":{
-               "en":"Surgery",
-               "de":"Operation",
-               "es":"Cirugía"
-            },
-            "enabled":true,
-            "queueUuid":"d79dc984-a00d-4fdb-ab81-88b0d4a51ca5",
-            "formUuid":"AUA Surgery"
-         }
-      ]
-   },
-   "@openmrs/esm-home-app":{
-      "leftNavMode":"normal"
-   },
-   "@openmrs/esm-patient-vitals-app":{
-      "vitals":{
-         "useFormEngine":true,
-         "formUuid":"12eb8619-caa6-4143-b5a3-279404ad2276",
-         "formName":"Ophthalmological Chart",
-         "encounterTypeUuid":"d9871d5f-e5db-4141-8850-2e99d561c169",
-         "showPrintButton":true
+    },
+    "notesConceptUuids": [
+      "AUA-F-020",
+      "AUA-F-021",
+      "AUA-F024-L",
+      "AUA-F024-R",
+      "AUA-F-029",
+      "AUA-F-030"
+    ],
+    "extensionSlots": {
+      "patient-chart-summary-dashboard-slot": {
+        "add": [],
+        "remove": [
+          "past-medications-widget",
+          "active-medications-widget"
+        ]
       },
-      "concepts":{
-         "systolicBloodPressureUuid":"AUA-T-006-L",
-         "other":"AUA-T-006-R",
-         "vitalSignsConceptSetUuid":"cfd078d9-efc9-4b28-b16a-a1240203d692"
+      "patient-chart-vitals-biometrics-dashboard-slot": {
+        "remove": [
+          "vitals-details-widget"
+        ]
+      },
+      "patient-chart-dashboard-slot": {
+        "remove": [
+          "allergies-summary-dashboard",
+          "billing-summary-dashboard-link",
+          "immunization-summary-dashboard",
+          "medications-summary-dashboard",
+          "patient-orders-summary-dashboard",
+          "programs-summary-dashboard",
+          "patient-appointments-summary-dashboard"
+        ]
+      },
+      "patient-info-slot": {
+        "add": [
+          "past-visits-detail-overview"
+        ]
       }
-   }
+    }
+  },
+  "@openmrs/esm-service-queues-app": {
+    "statusConfigs": [
+      {
+        "conceptUuid": "51ae5e4d-b72b-4912-bf31-a17efb690aeb",
+        "iconComponent": "InProgress"
+      },
+      {
+        "conceptUuid": "ca7494ae-437f-4fd0-8aae-b88b9a2ba47d",
+        "iconComponent": "Group"
+      },
+      {
+        "conceptUuid": "b559fb77-4e1e-4285-b9b7-1d03e0ba983f",
+        "iconComponent": "Group"
+      }
+    ],
+    "concepts": {
+      "defaultPriorityConceptUuid": "f4620bfa-3625-4883-bd3f-84c2cce14470",
+      "emergencyPriorityConceptUuid": "04f6f7e0-e3cb-4e13-a133-4479f759574e",
+      "defaultStatusConceptUuid": "51ae5e4d-b72b-4912-bf31-a17efb690aeb",
+      "defaultTransitionStatus": "ca7494ae-437f-4fd0-8aae-b88b9a2ba47d"
+    },
+    "visitQueueNumberAttributeUuid": "",
+    "defaultFacilityUrl": ""
+  },
+  "@openmrs/esm-styleguide": {
+    "Brand color #1": "#005d5d"
+  },
+  "@openmrs/esm-patient-registration-app": {
+    "fieldDefinitions": [
+      {
+        "id": "canRead",
+        "name": "Can Read",
+        "label": "Can Read",
+        "type": "person attribute",
+        "uuid": "1f8e8e8b-4b2c-4d81-96f8-c55c07293530",
+        "answerConceptSetUuid": "159400AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "required": false
+      }
+    ],
+    "sectionDefinitions": [
+      {
+        "id": "literacy",
+        "name": "Literacy Information",
+        "fields": [
+          "canRead"
+        ]
+      }
+    ],
+    "fieldConfigurations": {
+      "gender": [
+        {
+          "value": "male",
+          "label": "Male"
+        },
+        {
+          "value": "female",
+          "label": "Female"
+        }
+      ]
+    },
+    "sections": [
+      "demographics",
+      "contact",
+      "literacy"
+    ]
+  },
+  "@openmrs/esm-patient-orders-app": {
+    "orderTypes": [
+      {
+        "orderTypeUuid": "7e5f3547-eb3f-11f0-88ce-2a007c912d5f",
+        "label": "Procedure orders",
+        "icon": "omrs-icon-procedure",
+        "orderableConceptSets": [
+          "16ed42e9-1232-432d-9777-b44ff5ec3739"
+        ]
+      }
+    ]
+  },
+  "@augen-auf/openmrs-esm-augen-auf": {
+    "stages": [
+      {
+        "id": "registration-form",
+        "label": {
+          "en": "Registration Form",
+          "de": "Registrierungs Formular",
+          "es": "Registration Form"
+        },
+        "enabled": true,
+        "queueUuid": "310b9d28-737d-45d2-8b6a-f059aac6cea8",
+        "formUuid": "AUA Registration"
+      },
+      {
+        "id": "auto-refraction",
+        "label": {
+          "en": "Auto Refraction",
+          "de": "Auto Refraktion",
+          "es": "Autorefracción"
+        },
+        "enabled": true,
+        "queueUuid": "cbb6ec0c-c6c7-4e31-a6a6-3c447a29d95b",
+        "formUuid": "AUA AutoRefraction"
+      },
+      {
+        "id": "subjective-refraction",
+        "label": {
+          "en": "Subjective Refraction",
+          "de": "Subjektive Refraktion",
+          "es": "Refracción Subjetiva"
+        },
+        "enabled": true,
+        "queueUuid": "c5f52586-e1bc-48cb-afde-d1a027139e8b",
+        "formUuid": "AUA Subjective Refraction"
+      },
+      {
+        "id": "eye-exam",
+        "label": {
+          "en": "Eye Exam",
+          "de": "Augenuntersuchung",
+          "es": "Examen Ocular"
+        },
+        "enabled": true,
+        "queueUuid": "3eab5184-aa9d-4ef6-8072-d219cd4fbcbf",
+        "formUuid": "AUA Eye Exam"
+      },
+      {
+        "id": "therapy",
+        "label": {
+          "en": "Therapy",
+          "de": "Therapie",
+          "es": "Terapia"
+        },
+        "enabled": true,
+        "queueUuid": "59006885-9096-407d-9428-efbbe6e5c8f3",
+        "formUuid": "AUA Therapy"
+      },
+      {
+        "id": "pre-surgery",
+        "label": {
+          "en": "Pre-Surgery",
+          "de": "Vor-Operation",
+          "es": "Prequirúrgico"
+        },
+        "enabled": true,
+        "queueUuid": "c72ccad1-bec7-4e73-8d03-4a43edb20213",
+        "formUuid": "AUA Pre-Surgery"
+      },
+      {
+        "id": "surgery",
+        "label": {
+          "en": "Surgery",
+          "de": "Operation",
+          "es": "Cirugía"
+        },
+        "enabled": true,
+        "queueUuid": "d79dc984-a00d-4fdb-ab81-88b0d4a51ca5",
+        "formUuid": "AUA Surgery"
+      }
+    ]
+  },
+  "@openmrs/esm-home-app": {
+    "leftNavMode": "normal"
+  }
 }
