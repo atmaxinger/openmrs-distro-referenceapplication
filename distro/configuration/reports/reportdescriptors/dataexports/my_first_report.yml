@@ -1,4 +1,4 @@
-key: "my.first.report"
+key: "aua.first.report"
 uuid: "11111111-2222-3333-4444-555555555555"  # Generate unique UUID
 name: "My First Report"
 description: "A simple patient list report"
