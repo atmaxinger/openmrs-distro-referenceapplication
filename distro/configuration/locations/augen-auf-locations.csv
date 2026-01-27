@@ -6,3 +6,4 @@ c5416984-946e-43f6-ab7c-206cf696146c,,Registration,Place where Patients are chec
 7bfe459a-3ec1-4f20-8d22-affa30e9e880,,Therapy,Station where the doctor performs diagnoses,QU01,Queue Location; Service Location,
 fdcb538e-ec68-43da-be82-424499f4acc6,,Pre-surgery,Station where patients are admitted for Operation,QU01,Queue Location; Service Location,
 e25f883f-28cd-4997-a3ea-7dab4be6bae2,,Surgery,Station where Surgery is performed,QU01,Queue Location; Service Location,
+f3644a8d-16fa-42c2-a54c-bed2f95d9425,,Waiting for Service,Waiting for Service Queue,QU01,Queue Location; Service Location,
