@@ -1,400 +1,541 @@
 {
   "name": "AUA Pre-Surgery",
   "description": "Pre-surgery assessment - Cataract evaluation and surgical planning",
-  "version": "1.1",
+  "version": "1.7",
   "published": true,
   "retired": false,
   "encounter": "Pre-Surgery Evaluation",
   "encounterType": "e4c30030-3006-4fdd-9f6a-666666666666",
   "processor": "EncounterFormProcessor",
   "referencedForms": [],
-  "uuid": "ae17baf0-fea1-4d3f-bf91-947de5aeea1a",
   "pages": [
     {
-      "label": "Cataract Assessment",
+      "label": "Pre-OP Asses. OD",
       "sections": [
         {
-          "label": "Right Eye (OD) - Visual Acuity",
+          "label": "Findings",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "bcva-od",
-              "label": "Best Corrected Visual Acuity",
-              "type": "obs",
+              "id": "AUA_SET_PREOP_CAT_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-018"
-              }
+                "concept": "AUA-CS-013-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "bcva-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-F-018-R",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-incipiens-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-004-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-corticalis-nuclearis-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-005-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-subcapsularis-post-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-006-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-polaris-posterior-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-007-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-brunescens-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-008-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-matura-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-009-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "AUA_SET_PREOP_PTERGIUM_OD",
+              "type": "obsGroup",
+              "questionOptions": {
+                "concept": "AUA-CS-014-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "cataract-intumescens-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-010-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "presurgery-pseudophakia-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F021-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "pterygium-astigmatism-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-F-002-R",
+                    "max": 15
+                  }
+                },
+                {
+                  "id": "pterygium-length-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-F-003-R",
+                    "min": 0
+                  }
+                },
+                {
+                  "id": "pterygium-necessary-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-019-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "label": "Pre-OP Asses. OS",
+      "sections": [
         {
-          "label": "Right Eye (OD) - Cataract Type",
+          "label": "Findings",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "cataract-incipiens-od",
-              "label": "Incipient",
-              "type": "obs",
+              "id": "AUA_SET_PREOP_CAT_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-004-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-013-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "bcva-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-F-018-L",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
                   }
-                ]
-              }
+                },
+                {
+                  "id": "cataract-incipiens-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-004-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-corticalis-nuclearis-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-005-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-subcapsularis-post-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-006-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-polaris-posterior-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-007-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-brunescens-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-008-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "cataract-matura-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-009-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                }
+              ]
             },
             {
-              "id": "cataract-corticalis-nuclearis-od",
-              "label": "Cortical and nuclear",
-              "type": "obs",
+              "id": "AUA_SET_PREOP_PTERGIUM_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-005-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-014-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "cataract-intumescens-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-010-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "cataract-subcapsularis-post-od",
-              "label": "Posterior subcapsular",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-006-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "presurgery-pseudophakia-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F021-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "cataract-polaris-posterior-od",
-              "label": "Posterior polar",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-007-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "pterygium-astigmatism-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-F-002-L",
+                    "max": 15
                   }
-                ]
-              }
-            },
-            {
-              "id": "cataract-brunescens-od",
-              "label": "Brunescent",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-008-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "pterygium-length-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-F-003-L",
+                    "min": 0
                   }
-                ]
-              }
-            },
-            {
-              "id": "cataract-matura-od",
-              "label": "Mature",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-009-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "pterygium-necessary-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-019-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "cataract-intumescens-od",
-              "label": "Intumescent",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-010-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "presurgery-pseudophakia-od",
-              "label": "Pseudophakia",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F021-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
+                }
+              ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "label": "Pre-OP Notes",
+      "sections": [
         {
-          "label": "Right Eye (OD) - Pterygium",
+          "label": "Decisions",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "pterygium-astigmatism-od",
-              "label": "Pterygium-induced astigmatism",
-              "type": "obs",
+              "id": "AUA_SET_PREOP_ANEST_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-002-R"
-              }
+                "concept": "AUA-CS-015-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "anestesia_od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-F022-R",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-018",
+                        "label": "Akinesia"
+                      },
+                      {
+                        "concept": "AUA-A-016",
+                        "label": "Intracameral"
+                      },
+                      {
+                        "concept": "AUA-A-017",
+                        "label": "Sub-Tenon/Peribulbar"
+                      }
+                    ]
+                  }
+                }
+              ]
             },
             {
-              "id": "pterygium-length-od",
-              "label": "Pterygium length from limbus",
-              "type": "obs",
+              "id": "AUA_SET_PREOP_ANEST_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-003-R"
-              }
-            },
-            {
-              "id": "pterygium-necessary-od",
-              "label": "Necessary before surgery",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-019-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-015-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "anestesia_os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-F022-L",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-016",
+                        "label": "Intracameral"
+                      },
+                      {
+                        "concept": "AUA-A-018",
+                        "label": "Akinesia"
+                      },
+                      {
+                        "concept": "AUA-A-017",
+                        "label": "Sub-Tenon/Peribulbar"
+                      }
+                    ]
                   }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "label": "Left Eye (OS) - Visual Acuity",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "bcva-os",
-              "label": "Best Corrected Visual Acuity",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-018"
-              }
-            }
-          ]
-        },
-        {
-          "label": "Left Eye (OS) - Cataract Type",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "cataract-incipiens-os",
-              "label": "Incipient",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-004-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "cataract-corticalis-nuclearis-os",
-              "label": "Cortical and nuclear",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-005-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "cataract-subcapsularis-post-os",
-              "label": "Posterior subcapsular",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-006-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "cataract-polaris-posterior-os",
-              "label": "Posterior polar",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-007-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "cataract-brunescens-os",
-              "label": "Brunescent",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-008-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "cataract-matura-os",
-              "label": "Mature",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-009-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "cataract-intumescens-os",
-              "label": "Intumescent",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-010-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "presurgery-pseudophakia-os",
-              "label": "Pseudophakia",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F021-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "label": "Left Eye (OS) - Pterygium",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "pterygium-astigmatism-os",
-              "label": "Pterygium-induced astigmatism",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-002-L"
-              }
-            },
-            {
-              "id": "pterygium-length-os",
-              "label": "Pterygium length from limbus",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-003-L"
-              }
-            },
-            {
-              "id": "pterygium-necessary-os",
-              "label": "Necessary before surgery",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-019-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "label": "Pre-Surgery Notes",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "anestesia",
-              "label": "Anestesia",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F022",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
+                }
+              ]
             },
             {
               "id": "preop-commentary",
-              "label": "Commentary (Pre-OP)",
               "type": "obs",
               "questionOptions": {
                 "rendering": "textarea",

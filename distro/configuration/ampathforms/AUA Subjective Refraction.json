@@ -1,115 +1,360 @@
 {
   "name": "AUA Subjective Refraction",
   "description": "Subjective Vision and refraction measurements",
-  "version": "1.1",
+  "version": "1.7",
   "published": true,
   "retired": false,
   "encounter": "Subjective Refraction",
   "encounterType": "e4c30030-3003-4fdd-9f6a-333333333333",
   "processor": "EncounterFormProcessor",
-  "referencedForms": [],
   "uuid": "870e8ffd-e57f-4f79-b5bc-beef7685daa8",
+  "referencedForms": [],
   "pages": [
     {
-      "label": "Subjective Refraction",
+      "label": "Subj. Refract OD",
       "sections": [
         {
-          "label": "Right Eye (OD) - Visual Acuity",
+          "label": "Measurements",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "sc-od",
-              "label": "Visual Acuity without correction",
-              "type": "obs",
+              "id": "AUA_SET_SR_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "AUA-T-001-R"
-              }
-            },
-            {
-              "id": "cc-od",
-              "label": "Visual Acuity with correction",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "AUA-T-002-R"
-              }
-            },
-            {
-              "id": "iop-od",
-              "label": "Intraocular pressure",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-T-003-R",
-                "min": 0,
-                "max": 80
-              }
-            },
-            {
-              "id": "glasses-prescription-od",
-              "label": "Glasses prescription",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-D-015-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-012-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "va-sc-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-T-001-R",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
                   }
-                ]
-              }
+                },
+                {
+                  "id": "va-cc-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-T-002-R",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "sph-sr-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-008-R",
+                    "min": -40,
+                    "max": 30,
+                    "step": 0.25
+                  }
+                },
+                {
+                  "id": "cyl-sr-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-009-R",
+                    "max": 10,
+                    "step": 0.25
+                  }
+                },
+                {
+                  "id": "axis-sr-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-010-R",
+                    "min": 0,
+                    "max": 180,
+                    "step": 1
+                  }
+                }
+              ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "label": "Subj. Refraction OS",
+      "sections": [
         {
-          "label": "Left Eye (OS) - Visual Acuity",
+          "label": "Measurements",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "sc-os",
-              "label": "Visual Acuity without correction",
-              "type": "obs",
+              "id": "AUA_SET_SR_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "AUA-T-001-L"
-              }
-            },
-            {
-              "id": "cc-os",
-              "label": "Visual Acuity with correction",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "AUA-T-002-L"
-              }
-            },
-            {
-              "id": "iop-os",
-              "label": "Intraocular pressure",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-T-003-L",
-                "min": 0,
-                "max": 80
-              }
-            },
-            {
-              "id": "glasses-prescription-os",
-              "label": "Glasses prescription",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-D-015-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-012-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "va-sc-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-T-001-Ls",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
                   }
-                ]
-              }
+                },
+                {
+                  "id": "va-cc-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "select",
+                    "concept": "AUA-T-002-L",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "sph-sr-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-008-L",
+                    "min": -40,
+                    "max": 30,
+                    "step": 0.25
+                  }
+                },
+                {
+                  "id": "cyl-sr-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-009-L",
+                    "max": 10,
+                    "step": 0.25
+                  }
+                },
+                {
+                  "id": "axis-sr-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-T-010-L",
+                    "min": 0,
+                    "max": 180,
+                    "step": 1
+                  }
+                }
+              ]
             }
           ]
         }

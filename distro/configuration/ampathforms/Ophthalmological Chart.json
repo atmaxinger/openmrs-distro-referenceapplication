@@ -1,0 +1,64 @@
+{
+  "name": "Ophthalmological Chart",
+  "processor": "EncounterFormProcessor",
+  "version": "1.0",
+  "published": true,
+  "pages": [
+    {
+      "label": "Vision & Refraction",
+      "sections": [
+        {
+          "label": "Refraction",
+          "isExpanded": true,
+          "questions": [
+            {
+              "id": "sph-od",
+              "label": "Spherical refraction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-004-R"
+              },
+              "readonly": true
+            },
+            {
+              "id": "cyl-od",
+              "label": "Cylinder refraction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-005-R"
+              },
+              "readonly": true
+            },
+            {
+              "id": "axis-od",
+              "label": "Axis",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "AUA-T-006-R",
+                "min": 0,
+                "max": 180
+              },
+              "readonly": true
+            },
+            {
+              "id": "va-ar-cc-od",
+              "label": "Visual Acuity AR with correction",
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "AUA-T-007-R"
+              },
+              "readonly": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "Patient Chart for Display only",
+  "encounterType": "d9871d5f-e5db-4141-8850-2e99d561c169",
+  "uuid": "12eb8619-caa6-4143-b5a3-279404ad2276"
+}

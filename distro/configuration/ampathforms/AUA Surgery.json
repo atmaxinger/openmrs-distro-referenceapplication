@@ -1,14 +1,13 @@
 {
   "name": "AUA Surgery",
   "description": "Surgical procedure documentation - Post-surgery record",
-  "version": "1.1",
+  "version": "1.3",
   "published": true,
   "retired": false,
   "encounter": "Surgery",
   "encounterType": "518f2880-f5fe-4b62-9e31-84e02ad3a0a0",
   "processor": "EncounterFormProcessor",
   "referencedForms": [],
-  "uuid": "f7e8ad88-cfcf-4732-8e3a-cde3cdf1a202",
   "pages": [
     {
       "label": "Cataract Surgery",
@@ -19,7 +18,6 @@
           "questions": [
             {
               "id": "cataract-surgery-od",
-              "label": "Cataract surgery",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -34,7 +32,6 @@
             },
             {
               "id": "phako-od",
-              "label": "Phacoemulsification",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -49,7 +46,6 @@
             },
             {
               "id": "sics-od",
-              "label": "Small-incision cataract surgery",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -64,7 +60,6 @@
             },
             {
               "id": "ecce-od",
-              "label": "Extracapsular cataract extraction",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -85,7 +80,6 @@
           "questions": [
             {
               "id": "pc-iol-od",
-              "label": "Posterior chamber IOL",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -100,7 +94,6 @@
             },
             {
               "id": "ac-iol-od",
-              "label": "Anterior chamber IOL",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -115,7 +108,6 @@
             },
             {
               "id": "no-iol-od",
-              "label": "No IOL implanted",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -130,7 +122,6 @@
             },
             {
               "id": "iol-type-od",
-              "label": "IOL type",
               "type": "obs",
               "questionOptions": {
                 "rendering": "text",
@@ -139,11 +130,12 @@
             },
             {
               "id": "iol-strength-od",
-              "label": "IOL strength",
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "AUA-F-012-R"
+                "concept": "AUA-F-012-R",
+                "min": -10,
+                "max": 40
               }
             }
           ]
@@ -154,7 +146,6 @@
           "questions": [
             {
               "id": "no-complication-od",
-              "label": "No complication",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -169,7 +160,6 @@
             },
             {
               "id": "zonular-dehiscence-od",
-              "label": "Zonular dehiscence",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -184,7 +174,6 @@
             },
             {
               "id": "capsule-rupture-od",
-              "label": "Posterior capsule rupture",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -199,7 +188,6 @@
             },
             {
               "id": "vitreous-loss-od",
-              "label": "Vitreous loss",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -214,7 +202,6 @@
             },
             {
               "id": "retained-lens-od",
-              "label": "Retained lens matter",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -229,7 +216,6 @@
             },
             {
               "id": "other-complication-od",
-              "label": "Other Complication",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -250,7 +236,6 @@
           "questions": [
             {
               "id": "cataract-surgery-os",
-              "label": "Cataract surgery",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -265,7 +250,6 @@
             },
             {
               "id": "phako-os",
-              "label": "Phacoemulsification",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -280,7 +264,6 @@
             },
             {
               "id": "sics-os",
-              "label": "Small-incision cataract surgery",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -295,7 +278,6 @@
             },
             {
               "id": "ecce-os",
-              "label": "Extracapsular cataract extraction",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -316,7 +298,6 @@
           "questions": [
             {
               "id": "pc-iol-os",
-              "label": "Posterior chamber IOL",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -331,7 +312,6 @@
             },
             {
               "id": "ac-iol-os",
-              "label": "Anterior chamber IOL",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -346,7 +326,6 @@
             },
             {
               "id": "no-iol-os",
-              "label": "No IOL implanted",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -361,7 +340,6 @@
             },
             {
               "id": "iol-type-os",
-              "label": "IOL type",
               "type": "obs",
               "questionOptions": {
                 "rendering": "text",
@@ -370,11 +348,12 @@
             },
             {
               "id": "iol-strength-os",
-              "label": "IOL strength",
               "type": "obs",
               "questionOptions": {
                 "rendering": "number",
-                "concept": "AUA-F-012-L"
+                "concept": "AUA-F-012-L",
+                "min": -10,
+                "max": 40
               }
             }
           ]
@@ -385,7 +364,6 @@
           "questions": [
             {
               "id": "no-complication-os",
-              "label": "No complication",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -400,7 +378,6 @@
             },
             {
               "id": "zonular-dehiscence-os",
-              "label": "Zonular dehiscence",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -415,7 +392,6 @@
             },
             {
               "id": "capsule-rupture-os",
-              "label": "Posterior capsule rupture",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -430,7 +406,6 @@
             },
             {
               "id": "vitreous-loss-os",
-              "label": "Vitreous loss",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -445,7 +420,6 @@
             },
             {
               "id": "retained-lens-os",
-              "label": "Retained lens matter",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -460,7 +434,6 @@
             },
             {
               "id": "other-complication-os",
-              "label": "Other Complication",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -486,7 +459,6 @@
           "questions": [
             {
               "id": "pterygium-surgery-od",
-              "label": "Pterygium surgery",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -501,7 +473,6 @@
             },
             {
               "id": "pterygium-with-transplant-od",
-              "label": "With transplant",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -516,7 +487,6 @@
             },
             {
               "id": "pterygium-without-transplant-od",
-              "label": "Without transplant",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -531,7 +501,6 @@
             },
             {
               "id": "pterygium-mmc-od",
-              "label": "MMC/5-FU",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -552,7 +521,6 @@
           "questions": [
             {
               "id": "pterygium-surgery-os",
-              "label": "Pterygium surgery",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -567,7 +535,6 @@
             },
             {
               "id": "pterygium-with-transplant-os",
-              "label": "With transplant",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -582,7 +549,6 @@
             },
             {
               "id": "pterygium-without-transplant-os",
-              "label": "Without transplant",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -597,7 +563,6 @@
             },
             {
               "id": "pterygium-mmc-os",
-              "label": "MMC/5-FU",
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
@@ -623,7 +588,6 @@
           "questions": [
             {
               "id": "surgeon",
-              "label": "Surgeon (Name)",
               "type": "obs",
               "questionOptions": {
                 "rendering": "text",
@@ -632,7 +596,6 @@
             },
             {
               "id": "postop-commentary",
-              "label": "Commentary (Post-OP)",
               "type": "obs",
               "questionOptions": {
                 "rendering": "textarea",

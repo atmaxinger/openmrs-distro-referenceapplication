@@ -1,14 +1,14 @@
 {
   "name": "AUA AutoRefraction",
   "description": "AR Vision and refraction measurements",
-  "version": "1.2",
+  "version": "1.7",
   "published": true,
   "retired": false,
   "encounter": "Autorefraction",
   "encounterType": "e4c30030-3007-4fdd-9f6a-777777777777",
+  "uuid": "787d94ca-166b-453e-a215-d22cbba6541b",
   "processor": "EncounterFormProcessor",
   "referencedForms": [],
-  "uuid": "2d8542df-1b9a-499c-9c9e-4a2b8b351627",
   "pages": [
     {
       "label": "Autorefraction OD",
@@ -18,7 +18,7 @@
           "isExpanded": "true",
           "questions": [
             {
-              "id": "AUA-CS-011-R",
+              "id": "AUA_SET_AR_OD",
               "type": "obsGroup",
               "questionOptions": {
                 "concept": "AUA-CS-011-R",
@@ -27,46 +27,112 @@
               "questions": [
                 {
                   "id": "sph-od",
-                  "label": "Spherical refraction",
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "number",
-                    "concept": "AUA-T-004-R"
+                    "concept": "AUA-T-004-R",
+                    "min": -40,
+                    "max": 30,
+                    "step": 0.25
                   }
                 },
                 {
                   "id": "cyl-od",
-                  "label": "Cylinder refraction",
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "number",
-                    "concept": "AUA-T-005-R"
+                    "concept": "AUA-T-005-R",
+                    "max": 10,
+                    "step": 0.25
                   }
                 },
                 {
                   "id": "axis-od",
-                  "label": "Axis",
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "number",
                     "concept": "AUA-T-006-R",
                     "min": 0,
-                    "max": 180
+                    "max": 180,
+                    "step": 1
                   }
                 },
                 {
                   "id": "va-ar-cc-od",
-                  "label": "Visual Acuity AR with correction",
                   "type": "obs",
                   "questionOptions": {
-                    "rendering": "text",
-                    "concept": "AUA-T-007-R"
+                    "rendering": "select",
+                    "concept": "AUA-T-007-R",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
                   }
                 }
               ]
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Autorefraction OS",
+      "sections": [
+        {
+          "label": "Measurements",
+          "isExpanded": "true",
+          "questions": [
             {
-              "id": "AUA-CS-011-L",
+              "id": "AUA_SET_AR_OS",
               "type": "obsGroup",
               "questionOptions": {
                 "concept": "AUA-CS-011-L",
@@ -75,40 +141,95 @@
               "questions": [
                 {
                   "id": "sph-os",
-                  "label": "Spherical refraction",
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "number",
-                    "concept": "AUA-T-004-L"
+                    "concept": "AUA-T-004-L",
+                    "min": -40,
+                    "max": 30,
+                    "step": 0.25
                   }
                 },
                 {
                   "id": "cyl-os",
-                  "label": "Cylinder refraction",
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "number",
-                    "concept": "AUA-T-005-L"
+                    "concept": "AUA-T-005-L",
+                    "max": 10,
+                    "step": 0.25
                   }
                 },
                 {
                   "id": "axis-os",
-                  "label": "Axis",
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "number",
                     "concept": "AUA-T-006-L",
                     "min": 0,
-                    "max": 180
+                    "max": 180,
+                    "step": 1
                   }
                 },
                 {
                   "id": "va-ar-cc-os",
-                  "label": "Visual Acuity AR with correction",
                   "type": "obs",
                   "questionOptions": {
-                    "rendering": "text",
-                    "concept": "AUA-T-007-L"
+                    "rendering": "select",
+                    "concept": "AUA-T-007-L",
+                    "answers": [
+                      {
+                        "concept": "AUA-A-001"
+                      },
+                      {
+                        "concept": "AUA-A-002"
+                      },
+                      {
+                        "concept": "AUA-A-003"
+                      },
+                      {
+                        "concept": "AUA-A-004"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-005"
+                      },
+                      {
+                        "concept": "AUA-A-006"
+                      },
+                      {
+                        "concept": "AUA-A-007"
+                      },
+                      {
+                        "concept": "AUA-A-008"
+                      },
+                      {
+                        "concept": "AUA-A-009"
+                      },
+                      {
+                        "concept": "AUA-A-010"
+                      },
+                      {
+                        "concept": "AUA-A-011"
+                      },
+                      {
+                        "concept": "AUA-A-012"
+                      },
+                      {
+                        "concept": "AUA-A-013"
+                      },
+                      {
+                        "concept": "AUA-A-014"
+                      },
+                      {
+                        "concept": "AUA-A-015"
+                      },
+                      {
+                        "concept": "AUA-A-019"
+                      }
+                    ]
                   }
                 }
               ]
