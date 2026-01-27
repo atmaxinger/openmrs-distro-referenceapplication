@@ -139,6 +139,17 @@
         "formUuid": "AUA Registration"
       },
       {
+        "id": "waiting-form",
+        "label": {
+          "en": "Waiting",
+          "de": "Warte",
+          "es": "Esperando"
+        },
+        "enabled": true,
+        "queueUuid": "3a6c89ca-b5d0-46b7-8443-2813484ba572",
+        "formUuid": "AUA Waiting Queue"
+      },
+      {
         "id": "auto-refraction",
         "label": {
           "en": "Auto Refraction",
