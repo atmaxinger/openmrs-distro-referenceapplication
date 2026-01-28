@@ -88,7 +88,7 @@
     "sectionDefinitions": [
       {
         "id": "literacy",
-        "name": "Literacy Information",
+        "name": "Literacy",
         "fields": [
           "canRead"
         ]
@@ -98,11 +98,11 @@
       "gender": [
         {
           "value": "male",
-          "label": "Male"
+          "label": "♂"
         },
         {
           "value": "female",
-          "label": "Female"
+          "label": "♀"
         }
       ]
     },
@@ -130,8 +130,8 @@
         "id": "registration-form",
         "label": {
           "en": "Registration Form",
-          "de": "Registrierungs Formular",
-          "es": "Registration Form"
+          "de": "Registrierungsformular",
+          "es": "Formulario de Registración"
         },
         "enabled": true,
         "queueUuid": "310b9d28-737d-45d2-8b6a-f059aac6cea8",
@@ -141,7 +141,7 @@
         "id": "waiting-form",
         "label": {
           "en": "Waiting",
-          "de": "Warte",
+          "de": "Wartend",
           "es": "Esperando"
         },
         "enabled": true,
