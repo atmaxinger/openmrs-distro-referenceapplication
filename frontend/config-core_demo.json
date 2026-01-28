@@ -34,8 +34,7 @@
           "programs-summary-dashboard",
           "patient-appointments-summary-dashboard"
         ]
-      },
-      ,
+      },      
         "order": [
           "encounters-summary-dashboard",
           "test-results-summary-dashboard",
