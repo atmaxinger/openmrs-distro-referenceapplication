@@ -1,7 +1,7 @@
 {
   "name": "AUA Surgery",
   "description": "Surgical procedure documentation - Post-surgery record",
-  "version": "1.41",
+  "version": "1.52",
   "published": true,
   "retired": false,
   "encounter": "Surgery",
@@ -13,220 +13,70 @@
       "label": "Cataract Surgery OD",
       "sections": [
         {
-          "label": "Procedure Findings",
+          "label": "Findings",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "cataract-surgery-od",
-              "type": "obs",
+              "id": "AUA_SET_CAT_MORPH_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-001-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-005-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "cataract-surgery-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-001-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "phako-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-005-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "phako-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-005-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "sics-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-006-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "sics-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-006-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "ecce-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-007-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "ecce-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-007-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "label": "IOL",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "pc-iol-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-008-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "ac-iol-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-009-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "no-iol-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-011-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "iol-type-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "AUA-F-011-R"
-              }
-            },
-            {
-              "id": "iol-strength-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-012-R",
-                "min": -10,
-                "max": 40
-              }
-            }
-          ]
-        },
-        {
-          "label": "Complications",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "no-complication-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-013-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "zonular-dehiscence-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-014-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "capsule-rupture-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-015-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "vitreous-loss-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-016-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "retained-lens-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-017-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "other-complication-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F024-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
+                }
+              ]
             }
           ]
         }
@@ -236,416 +86,560 @@
       "label": "Cataract Surgery OS",
       "sections": [
         {
-          "label": "Procedure Findings",
+          "label": "Findings",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "cataract-surgery-os",
-              "type": "obs",
+              "id": "AUA_SET_CAT_MORPH_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-001-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-005-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "cataract-surgery-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-001-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "phako-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-005-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "phako-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-005-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "sics-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-006-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "sics-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-006-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "ecce-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-007-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "ecce-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-007-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "label": "IOL",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "pc-iol-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-008-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "ac-iol-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-009-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "no-iol-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-010-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "iol-type-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "AUA-F-011-L"
-              }
-            },
-            {
-              "id": "iol-strength-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "AUA-F-012-L",
-                "min": -10,
-                "max": 40
-              }
-            }
-          ]
-        },
-        {
-          "label": "Complications",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "no-complication-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-013-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "zonular-dehiscence-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-014-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "capsule-rupture-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-015-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "vitreous-loss-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-016-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "retained-lens-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F-017-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "other-complication-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F024-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "label": "Pterygium Surgery OD",
+      "label": "IOL OD",
       "sections": [
         {
-          "label": "Findings",
+          "label": "Information",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "pterygium-surgery-od",
-              "type": "obs",
+              "id": "AUA_SET_CAT_IOL_PLACE_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-002-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-007-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "ac-iol-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-009-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "pterygium-with-transplant-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F025-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "pc-iol-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-008-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "pterygium-without-transplant-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F026-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "no-iol-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-011-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
-            {
-              "id": "pterygium-mmc-od",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F027-R",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "iol-type-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "AUA-F-011-R"
                   }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "label": "Pterygium",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "id": "pterygium-surgery-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-002-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                },
+                {
+                  "id": "iol-strength-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-F-012-R",
+                    "min": -10,
+                    "max": 40
                   }
-                ]
-              }
-            },
-            {
-              "id": "pterygium-with-transplant-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F025-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "pterygium-without-transplant-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F026-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "pterygium-mmc-os",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F027-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  }
-                ]
-              }
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "label": "Pterygium Surgery OS",
+      "label": "IOL OS",
       "sections": [
         {
-          "label": "Findings",
+          "label": "Information",
           "isExpanded": "true",
           "questions": [
             {
-              "id": "pterygium-surgery-os",
-              "type": "obs",
+              "id": "AUA_SET_CAT_IOL_PLACE_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-P-002-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-007-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "ac-iol-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-009-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
+                },
+                {
+                  "id": "pc-iol-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-008-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "no-iol-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-010-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "iol-type-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "text",
+                    "concept": "AUA-F-011-L"
+                  }
+                },
+                {
+                  "id": "iol-strength-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "number",
+                    "concept": "AUA-F-012-L",
+                    "min": -10,
+                    "max": 40
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cataract Surg Tech OD",
+      "sections": [
+        {
+          "label": "Information",
+          "isExpanded": "true",
+          "questions": [
             {
-              "id": "pterygium-with-transplant-os",
-              "type": "obs",
+              "id": "AUA_SET_CAT_TECH_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F025-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-006-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "pterygium-surgery-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-002-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
+                },
+                {
+                  "id": "pterygium-with-transplant-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F025-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "pterygium-without-transplant-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F026-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "pterygium-mmc-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F027-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cataract Surg Tech OS",
+      "sections": [
+        {
+          "label": "Information",
+          "isExpanded": "true",
+          "questions": [
             {
-              "id": "pterygium-without-transplant-os",
-              "type": "obs",
+              "id": "AUA_SET_CAT_TECH_OS",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F026-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-006-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "pterygium-surgery-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-P-002-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
-            },
+                },
+                {
+                  "id": "pterygium-with-transplant-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F025-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "pterygium-without-transplant-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F026-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "pterygium-mmc-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F027-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Complications OD",
+      "sections": [
+        {
+          "label": "Information",
+          "isExpanded": "true",
+          "questions": [
             {
-              "id": "pterygium-mmc-os",
-              "type": "obs",
+              "id": "AUA_SET_CAT_COMPL_OD",
+              "type": "obsGroup",
               "questionOptions": {
-                "rendering": "checkbox",
-                "concept": "AUA-F027-L",
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
+                "concept": "AUA-CS-009-R",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "no-complication-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-013-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
                   }
-                ]
-              }
+                },
+                {
+                  "id": "zonular-dehiscence-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-014-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "capsule-rupture-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-015-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "vitreous-loss-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-016-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "retained-lens-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-017-R",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "other-complication-od",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "AUA-F024-R"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Complications OS",
+      "sections": [
+        {
+          "label": "Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "id": "AUA_SET_CAT_COMPL_OS",
+              "type": "obsGroup",
+              "questionOptions": {
+                "concept": "AUA-CS-009-L",
+                "rendering": "group"
+              },
+              "questions": [
+                {
+                  "id": "no-complication-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-013-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "zonular-dehiscence-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-014-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "capsule-rupture-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-015-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "vitreous-loss-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-016-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "retained-lens-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "checkbox",
+                    "concept": "AUA-F-017-L",
+                    "answers": [
+                      {
+                        "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "other-complication-os",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "AUA-F024-L"
+                  }
+                }
+              ]
             }
           ]
         }
