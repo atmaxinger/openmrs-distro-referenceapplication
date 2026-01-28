@@ -34,15 +34,15 @@
           "programs-summary-dashboard",
           "patient-appointments-summary-dashboard"
         ]
-      },      
-        "order": [
-          "encounters-summary-dashboard",
-          "test-results-summary-dashboard",
-          "results-summary-dashboard",
-          "conditions-summary-dashboard",
-          "attachments-results-summary-dashboard",
-          "charts-summary-dashboard"
-        ]
+      },
+      "order": [
+        "encounters-summary-dashboard",
+        "test-results-summary-dashboard",
+        "results-summary-dashboard",
+        "conditions-summary-dashboard",
+        "attachments-results-summary-dashboard",
+        "charts-summary-dashboard"
+      ]
     }
   },
   "@openmrs/esm-service-queues-app": {
@@ -141,7 +141,7 @@
         "label": {
           "en": "Waiting",
           "de": "Wartend",
-          "es": "Esperando"
+          "es": "En Espera"
         },
         "enabled": true,
         "queueUuid": "3a6c89ca-b5d0-46b7-8443-2813484ba572",
