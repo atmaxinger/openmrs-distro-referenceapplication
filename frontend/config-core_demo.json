@@ -24,11 +24,6 @@
           "active-medications-widget"
         ]
       },
-      "patient-chart-vitals-biometrics-dashboard-slot": {
-        "remove": [
-          "vitals-details-widget"
-        ]
-      },
       "patient-chart-dashboard-slot": {
         "remove": [
           "allergies-summary-dashboard",
@@ -40,11 +35,15 @@
           "patient-appointments-summary-dashboard"
         ]
       },
-      "patient-info-slot": {
-        "add": [
-          "past-visits-detail-overview"
+      ,
+        "order": [
+          "encounters-summary-dashboard",
+          "test-results-summary-dashboard",
+          "results-summary-dashboard",
+          "conditions-summary-dashboard",
+          "attachments-results-summary-dashboard",
+          "charts-summary-dashboard"
         ]
-      }
     }
   },
   "@openmrs/esm-service-queues-app": {
