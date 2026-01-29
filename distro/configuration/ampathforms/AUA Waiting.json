@@ -1,0 +1,30 @@
+{
+  "name": "AUA Waiting",
+  "pages": [
+    {
+      "label": "Patient Status",
+      "sections": [
+        {
+          "label": "Information",
+          "isExpanded": "true",
+          "questions": [
+            {
+              "type": "obs",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "AUA-F-031"
+              },
+              "id": "nextsteps"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processor": "EncounterFormProcessor",
+  "encounterType": "e4c30030-3006-4fdd-9f6a-999999999999",
+  "referencedForms": [],
+  "uuid": "c6fc49b0-7d3b-4058-acfe-1a82fb545da4",
+  "description": "Patients waiting",
+  "version": "1.0"
+}
