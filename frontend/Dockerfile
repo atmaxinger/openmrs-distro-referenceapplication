@@ -1,11 +1,11 @@
 # syntax=docker/dockerfile:1.3
 
 #--------------------------------------------
-# Downlaod Stage - Download Augen Auf frontend
+# Download Stage - Download Augen Auf frontend
 #--------------------------------------------
 FROM --platform=$BUILDPLATFORM alpine/curl:latest as curl
 
-RUN curl -L -o /augen-auf-openmrs.tgz https://github.com/ednet-dev/augen-auf-openmrs/releases/download/2026.01.14.1/augen-auf-openmrs.tgz
+RUN curl -L -o /augen-auf-openmrs.tgz https://github.com/ednet-dev/augen-auf-openmrs/releases/download/2026.01.29.4/augen-auf-openmrs.tgz
 
 #--------------------------------------------
 # Dev Stage - Assembles and Builds Frontend

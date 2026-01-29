@@ -4,9 +4,7 @@
     "visits": {
       "showAllPastVisits": true,
       "defaultPastVisitsPeriod": "1y",
-      "visitTypesToShow": [
-        "Facility Visit"
-      ]
+      "visitTypesToShow": ["Facility Visit"]
     },
     "notesConceptUuids": [
       "AUA-F-020",
@@ -19,10 +17,7 @@
     "extensionSlots": {
       "patient-chart-summary-dashboard-slot": {
         "add": [],
-        "remove": [
-          "past-medications-widget",
-          "active-medications-widget"
-        ]
+        "remove": ["past-medications-widget", "active-medications-widget"]
       },
       "patient-chart-dashboard-slot": {
         "remove": [
@@ -88,9 +83,7 @@
       {
         "id": "literacy",
         "name": "Literacy",
-        "fields": [
-          "canRead"
-        ]
+        "fields": ["canRead"]
       }
     ],
     "fieldConfigurations": {
@@ -105,11 +98,7 @@
         }
       ]
     },
-    "sections": [
-      "demographics",
-      "contact",
-      "literacy"
-    ]
+    "sections": ["demographics", "contact", "literacy"]
   },
   "@openmrs/esm-patient-orders-app": {
     "orderTypes": [
@@ -117,9 +106,7 @@
         "orderTypeUuid": "7e5f3547-eb3f-11f0-88ce-2a007c912d5f",
         "label": "Procedure orders",
         "icon": "omrs-icon-procedure",
-        "orderableConceptSets": [
-          "16ed42e9-1232-432d-9777-b44ff5ec3739"
-        ]
+        "orderableConceptSets": ["16ed42e9-1232-432d-9777-b44ff5ec3739"]
       }
     ]
   },
@@ -134,7 +121,7 @@
         },
         "enabled": true,
         "queueUuid": "310b9d28-737d-45d2-8b6a-f059aac6cea8",
-        "formUuid": "AUA Registration"
+        "formName": "AUA Registration"
       },
       {
         "id": "auto-refraction",
@@ -145,7 +132,7 @@
         },
         "enabled": true,
         "queueUuid": "cbb6ec0c-c6c7-4e31-a6a6-3c447a29d95b",
-        "formUuid": "AUA AutoRefraction"
+        "formName": "AUA AutoRefraction"
       },
       {
         "id": "subjective-refraction",
@@ -156,7 +143,7 @@
         },
         "enabled": true,
         "queueUuid": "c5f52586-e1bc-48cb-afde-d1a027139e8b",
-        "formUuid": "AUA Subjective Refraction"
+        "formName": "AUA Subjective Refraction"
       },
       {
         "id": "eye-exam",
@@ -167,7 +154,7 @@
         },
         "enabled": true,
         "queueUuid": "3eab5184-aa9d-4ef6-8072-d219cd4fbcbf",
-        "formUuid": "AUA Eye Exam"
+        "formName": "AUA Eye Exam"
       },
       {
         "id": "therapy",
@@ -178,7 +165,7 @@
         },
         "enabled": true,
         "queueUuid": "59006885-9096-407d-9428-efbbe6e5c8f3",
-        "formUuid": "AUA Therapy"
+        "formName": "AUA Therapy"
       },
       {
         "id": "pre-surgery",
@@ -189,7 +176,7 @@
         },
         "enabled": true,
         "queueUuid": "c72ccad1-bec7-4e73-8d03-4a43edb20213",
-        "formUuid": "AUA Pre-Surgery"
+        "formName": "AUA Pre-Surgery"
       },
       {
         "id": "surgery",
@@ -200,7 +187,7 @@
         },
         "enabled": true,
         "queueUuid": "d79dc984-a00d-4fdb-ab81-88b0d4a51ca5",
-        "formUuid": "AUA Surgery"
+        "formName": "AUA Surgery"
       },
       {
         "id": "waiting-form",
@@ -211,7 +198,7 @@
         },
         "enabled": true,
         "queueUuid": "3a6c89ca-b5d0-46b7-8443-2813484ba572",
-        "formUuid": "AUA Waiting Queue"
+        "formName": "AUA Waiting"
       }
     ]
   },
