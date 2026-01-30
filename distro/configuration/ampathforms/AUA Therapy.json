@@ -1,7 +1,7 @@
 {
   "name": "AUA Therapy",
   "description": "Therapy decisions and prescriptions",
-  "version": "1.6",
+  "version": "1.62",
   "published": true,
   "retired": false,
   "encounter": "Doctor Visit",

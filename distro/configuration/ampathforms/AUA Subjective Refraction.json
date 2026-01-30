@@ -1,7 +1,7 @@
 {
   "name": "AUA Subjective Refraction",
   "description": "Subjective Vision and refraction measurements",
-  "version": "1.7",
+  "version": "1.72",
   "published": true,
   "retired": false,
   "encounter": "Subjective Refraction",
@@ -205,7 +205,7 @@
                   "type": "obs",
                   "questionOptions": {
                     "rendering": "select",
-                    "concept": "AUA-T-001-Ls",
+                    "concept": "AUA-T-001-L",
                     "answers": [
                       {
                         "concept": "AUA-A-001"

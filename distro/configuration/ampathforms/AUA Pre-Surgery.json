@@ -1,7 +1,7 @@
 {
   "name": "AUA Pre-Surgery",
   "description": "Pre-surgery assessment - Cataract evaluation and surgical planning",
-  "version": "1.7",
+  "version": "1.71",
   "published": true,
   "retired": false,
   "encounter": "Pre-Surgery Evaluation",
@@ -471,10 +471,10 @@
           "isExpanded": "true",
           "questions": [
             {
-              "id": "AUA_SET_PREOP_ANEST_OD",
+              "id": "AUA_SET_PREOP_MISC",
               "type": "obsGroup",
               "questionOptions": {
-                "concept": "AUA-CS-015-R",
+                "concept": "AUA-CS-017",
                 "rendering": "group"
               },
               "questions": [
@@ -499,17 +499,7 @@
                       }
                     ]
                   }
-                }
-              ]
-            },
-            {
-              "id": "AUA_SET_PREOP_ANEST_OS",
-              "type": "obsGroup",
-              "questionOptions": {
-                "concept": "AUA-CS-015-L",
-                "rendering": "group"
-              },
-              "questions": [
+                },
                 {
                   "id": "anestesia_os",
                   "type": "obs",
@@ -531,17 +521,17 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "preop-commentary",
+                  "type": "obs",
+                  "questionOptions": {
+                    "rendering": "textarea",
+                    "concept": "AUA-F-020",
+                    "rows": 3
+                  }
                 }
               ]
-            },
-            {
-              "id": "preop-commentary",
-              "type": "obs",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "AUA-F-020",
-                "rows": 3
-              }
             }
           ]
         }

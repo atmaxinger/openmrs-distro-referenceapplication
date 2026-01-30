@@ -12,11 +12,9 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "textarea",
-                "minLength": "1",
-                "maxLength": "200",
-                "concept": "161011AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "concept": "AUA-F-031"
               },
-              "id": "nextSteps",
+              "id": "nextsteps",
               "label": "Next Steps"
             }
           ]
@@ -25,9 +23,9 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "e4c30030-3006-4fdd-9f6a-666666666666",
+  "encounterType": "e4c30030-3006-4fdd-9f6a-999999999999",
   "referencedForms": [],
-  "uuid": "8c7a97ad-21e0-468d-b20b-7af141e78d36",
-  "description": "Waiting for Service Queue",
-  "version": "1.0"
+  "uuid": "bf712d8d-a529-459c-960b-b3c3c8461443",
+  "description": "Patients waiting",
+  "version": "1.01"
 }
