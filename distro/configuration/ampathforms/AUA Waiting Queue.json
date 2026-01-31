@@ -1,5 +1,14 @@
 {
   "name": "AUA Waiting Queue",
+  "published": true,
+  "retired": false,
+  "description": "Patients waiting",
+  "version": "1.02",
+  "encounterType": "e4c30030-3006-4fdd-9f6a-999999999999",
+  "encounter": "Waiting for Service",
+  "uuid": "bf712d8d-a529-459c-960b-b3c3c8461443",
+  "processor": "EncounterFormProcessor",
+  "referencedForms": [],
   "pages": [
     {
       "label": "Patient Status",
@@ -21,11 +30,5 @@
         }
       ]
     }
-  ],
-  "processor": "EncounterFormProcessor",
-  "encounterType": "e4c30030-3006-4fdd-9f6a-999999999999",
-  "referencedForms": [],
-  "uuid": "bf712d8d-a529-459c-960b-b3c3c8461443",
-  "description": "Patients waiting",
-  "version": "1.01"
+  ]
 }
