@@ -1,2 +1,3 @@
 Uuid,Void/Retire,Name,Description,Format,Foreign,Searchable
 1f8e8e8b-4b2c-4d81-96f8-c55c07293530,,can read,Person can read,org.openmrs.Concept,,,
+14d4f066-15f5-102d-96e4-000c29c2a5d7,0,Telephone Number,The telephone number for the person,java.lang.String,,,
