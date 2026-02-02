@@ -217,5 +217,17 @@
   },
   "@openmrs/esm-home-app": {
     "leftNavMode": "normal"
+  },
+    "@openmrs/esm-login-app": {
+    "logo": {
+      "src": "AUA_front_icon.png",
+      "alt": "[AUGEN AUF Guatemala]"
+    }
+  },
+  "@openmrs/esm-primary-navigation-app": {
+    "logo": {
+      "src": "AUA_top_icon.png",
+      "alt": "[AUA]"
+    }
   }
 }
