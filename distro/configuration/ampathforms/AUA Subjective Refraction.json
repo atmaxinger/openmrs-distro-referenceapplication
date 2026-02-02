@@ -1,7 +1,7 @@
 {
   "name": "AUA Subjective Refraction",
   "description": "Subjective Vision and refraction measurements",
-  "version": "1.72",
+  "version": "1.73",
   "published": true,
   "retired": false,
   "encounter": "Subjective Refraction",
@@ -43,9 +43,6 @@
                       },
                       {
                         "concept": "AUA-A-004"
-                      },
-                      {
-                        "concept": "AUA-A-005"
                       },
                       {
                         "concept": "AUA-A-005"
@@ -104,9 +101,6 @@
                       },
                       {
                         "concept": "AUA-A-004"
-                      },
-                      {
-                        "concept": "AUA-A-005"
                       },
                       {
                         "concept": "AUA-A-005"
@@ -223,9 +217,6 @@
                         "concept": "AUA-A-005"
                       },
                       {
-                        "concept": "AUA-A-005"
-                      },
-                      {
                         "concept": "AUA-A-006"
                       },
                       {
@@ -279,9 +270,6 @@
                       },
                       {
                         "concept": "AUA-A-004"
-                      },
-                      {
-                        "concept": "AUA-A-005"
                       },
                       {
                         "concept": "AUA-A-005"
