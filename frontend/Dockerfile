@@ -5,10 +5,10 @@
 #--------------------------------------------
 FROM --platform=$BUILDPLATFORM alpine/curl:latest as curl
 
-RUN curl -L -o /augen-auf-openmrs.tgz https://github.com/ednet-dev/augen-auf-openmrs/releases/latest
+RUN curl -L -o /augen-auf-openmrs.tgz https://github.com/ednet-dev/augen-auf-openmrs/releases/download/latest
 
-# AUA Logos
-COPY ./*.png /usr/share/nginx/html/
+# AUA assets
+COPY ./aua-* /usr/share/nginx/html/
 
 #--------------------------------------------
 # Dev Stage - Assembles and Builds Frontend
