@@ -7,15 +7,7 @@
       "visitTypesToShow": [
         "Facility Visit"
       ]
-    },
-    "notesConceptUuids": [
-      "AUA-F-020",
-      "AUA-F-021",
-      "AUA-F024-L",
-      "AUA-F024-R",
-      "AUA-F-029",
-      "AUA-F-030"
-    ],
+    },  
     "extensionSlots": {
       "patient-chart-summary-dashboard-slot": {
         "add": [],
@@ -218,15 +210,15 @@
   "@openmrs/esm-home-app": {
     "leftNavMode": "normal"
   },
-    "@openmrs/esm-login-app": {
+  "@openmrs/esm-login-app": {
     "logo": {
-      "src": "AUA_front_icon.png",
-      "alt": "[AUGEN AUF Guatemala]"
+      "src": "${openmrsSpaBase}/aua-logo.svg",
+      "alt": "[Augen Auf Guatemala]"
     }
   },
   "@openmrs/esm-primary-navigation-app": {
     "logo": {
-      "src": "AUA_top_icon.png",
+      "src": "${openmrsSpaBase}/aua-logo.svg",
       "alt": "[AUA]"
     }
   }
