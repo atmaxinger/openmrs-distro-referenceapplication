@@ -51,6 +51,12 @@
             <property>attachments.allowedFileExtensions</property>
             <value>jpeg,jpg,png,pdf</value>
         </globalProperty>
+
+        <!-- Whether to automatically load report definitions from configuration files at startup -->
+        <globalProperty>
+            <property>reporting.loadReportsFromConfigurationAtStartup</property>
+            <value>true</value>
+        </globalProperty>                
     </globalProperties>
 </config>
 
