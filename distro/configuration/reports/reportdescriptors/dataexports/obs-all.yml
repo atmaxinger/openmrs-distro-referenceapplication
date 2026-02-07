@@ -1,0 +1,37 @@
+name: AUA.Observations.All
+description: Report displaying all patient observations filtered by date range, patient name search, concept name search, and numeric value range.
+version: 1.0
+
+parameters:
+  - name: dateFrom
+    label: From Date
+    type: java.util.Date
+    required: true
+  - name: dateTo
+    label: To Date
+    type: java.util.Date
+    required: true
+  - name: patientSearch
+    label: Patient Name Search
+    type: java.lang.String
+    required: false
+    defaultValue: ""
+  - name: conceptSearch
+    label: Concept Name Search
+    type: java.lang.String
+    required: false
+    defaultValue: ""
+  - name: valueFrom
+    label: Value From (Numeric)
+    type: java.lang.Double
+    required: false
+  - name: valueTo
+    label: Value To (Numeric)
+    type: java.lang.Double
+    required: false
+
+designs:
+  - name: sqlDesign
+    type: org.openmrs.module.reporting.report.design.SqlReportDesign
+    properties:
+      sqlQueryFile: obs-all.sql  # Reference to the SQL file
