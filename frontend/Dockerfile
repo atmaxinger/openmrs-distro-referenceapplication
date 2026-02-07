@@ -5,15 +5,14 @@
 #--------------------------------------------
 FROM --platform=$BUILDPLATFORM alpine/curl:latest as curl
 
-# Get latest release link
-curl -o /tmp/release.json -sSL "https://api.github.com/repos/ednet-dev/augen-auf-openmrs/releases/latest"\
-    -H "Accept: application/vnd.github.v3+json"; 
-    LATEST_TAG=$(jq -r .tag_name /tmp/release.json) ; 
+# Get latest AUA Frontend Distro release link
+RUN curl -o release.json -sSL "https://api.github.com/repos/ednet-dev/augen-auf-openmrs/releases/latest"\
+    -H "Accept: application/vnd.github.v3+json"; \
+    LATEST_TAG=$(jq -r .tag_name release.json); \
     DOWNLOAD_URL=$(jq -r --arg tag "$LATEST_TAG" \
-    '.assets[] | select(.name | contains($tag) or endswith(".tar.gz") or endswith(".tgz")) | .browser_download_url' /tmp
-/release.json | head -n 1) ; 
-
-RUN curl -L -o /augen-auf-openmrs.tgz $DOWNLOAD_URL
+    '.assets[] | select(.name | contains($tag) or endswith(".tar.gz") or endswith(".tgz")) | .browser_download_url' \
+    release.json | head -n 1) ; \
+    curl -L -o /augen-auf-openmrs.tgz $DOWNLOAD_URL
 
 # AUA logos
 COPY aua-* .
@@ -59,10 +58,11 @@ COPY --from=dev /app/spa /usr/share/nginx/html
 COPY config-core_demo.json /usr/share/nginx/html
 
 # add proper AUA logo based on System Role
+COPY aua-logo* /tmp
 RUN if echo "${HOSTNAME_FOR_BUILD}" | grep -iq "mexico"; then \
-      cp aua-logo.svg /usr/share/nginx/html; \
+      cp /tmp/aua-logo.svg /usr/share/nginx/html; \
     else \
-      cp aua-logo-testsystem.svg /usr/share/nginx/html/aua-logo.svg; \
+      cp /tmp/aua-logo-testsystem.svg /usr/share/nginx/html/aua-logo.svg; \
     fi
 
 CMD ["/usr/local/bin/startup.sh"]
