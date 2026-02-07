@@ -1,37 +1,48 @@
-name: AUA.Observations.All
+key: "AUA.Observations.All"
+name: "Observations for Patients within timerange"
 description: Report displaying all patient observations filtered by date range, patient name search, concept name search, and numeric value range.
 version: 1.0
 
 parameters:
-  - name: dateFrom
-    label: From Date
-    type: java.util.Date
+  - key: "dateFrom"
+    label: "From Date"
+    type: "java.util.Date"
     required: true
-  - name: dateTo
-    label: To Date
-    type: java.util.Date
+  - key: "dateTo"
+    label: "To Date"
+    type: "java.util.Date"
     required: true
-  - name: patientSearch
-    label: Patient Name Search
-    type: java.lang.String
+  - key: "patientSearch"
+    label: "Patient Name Search"
+    type: "java.lang.String"
     required: false
     defaultValue: ""
-  - name: conceptSearch
-    label: Concept Name Search
-    type: java.lang.String
+  - key: "conceptSearch"
+    label: "Concept Name Search"
+    type: "java.lang.String"
     required: false
     defaultValue: ""
-  - name: valueFrom
-    label: Value From (Numeric)
-    type: java.lang.Double
+  - key: "valueFrom"
+    label: "Value From (Numeric)"
+    type: "java.lang.Double"
     required: false
-  - name: valueTo
-    label: Value To (Numeric)
+  - key: "valueTo"
+    label: "Value To (Numeric)"
     type: java.lang.Double
     required: false
 
+datasets:
+  - key: "observations"
+    type: "sql"
+    config: "sql/obs_all.sql"
+
 designs:
-  - name: sqlDesign
-    type: org.openmrs.module.reporting.report.design.SqlReportDesign
+  - type: "csv"
     properties:
-      sqlQueryFile: obs_all.sql  # Reference to the SQL file
+      "characterEncoding": "UTF-8"
+      "dateFormat": "yyyy-MM-dd"
+
+config:
+  category: "dataExport"
+  order: 100
+  privilege: "Get Patients"
