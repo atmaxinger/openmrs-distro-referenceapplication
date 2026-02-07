@@ -1,5 +1,4 @@
 key: "AUA.Patients.Created"
-uuid: "11111111-2222-3333-4444-555555555555"  # Generate unique UUID
 name: "Created Patients within timerange"
 description: "List of Created Patients within time range"
 
