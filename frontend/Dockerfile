@@ -1,5 +1,4 @@
 # syntax=docker/dockerfile:1.3
-
 #--------------------------------------------
 # Download Stage - Download Augen Auf frontend
 #--------------------------------------------
@@ -43,6 +42,8 @@ RUN if [ ! -f ./spa/index.html ]; then echo 'Build failed. Please check the logs
 # Runtime Stage - Published Image
 #--------------------------------------------
 FROM nginx:1.25-alpine
+ARG BUILD_HOSTNAME=default-host
+ARG HOSTNAME_FOR_BUILD=default-host
 
 RUN apk update && \
     apk upgrade && \
@@ -62,7 +63,9 @@ COPY config-core_demo.json /usr/share/nginx/html
 
 # add proper AUA logo based on System Role
 COPY aua-logo* /tmp
-RUN echo "${HOSTNAME_FOR_BUILD}" > /tmp/hostname_for_build.txt
+
+RUN echo "${BUILD_HOSTNAME}" > /tmp/hostname_for_build.txt
+RUN echo "${HOSTNAME_FOR_BUILD}" >> /tmp/hostname_for_build.txt
 RUN if echo "${HOSTNAME_FOR_BUILD}" | grep -iq "demo"; then \
       cp /tmp/aua-logo-testsystem.svg /usr/share/nginx/html/aua-logo.svg; \
     else \
