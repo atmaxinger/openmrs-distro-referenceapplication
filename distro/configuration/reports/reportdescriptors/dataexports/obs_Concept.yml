@@ -1,6 +1,6 @@
 key: "AUA.Observations.Concept"
-name: "Observations for Concepts within timerange"
-description: "Report displaying all patient observations filtered by date range, concept."
+name: "AUA Observations for Concepts within timerange"
+description: "AUA Report displaying all patient observations filtered by date range, concept."
 uuid: "b9940713-b677-47ab-8e9b-0363ceab1556" 
 
 parameters:
