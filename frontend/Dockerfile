@@ -62,6 +62,7 @@ COPY config-core_demo.json /usr/share/nginx/html
 
 # add proper AUA logo based on System Role
 COPY aua-logo* /tmp
+RUN echo "${HOSTNAME_FOR_BUILD}" > /tmp/hostname_for_build.txt
 RUN if echo "${HOSTNAME_FOR_BUILD}" | grep -iq "demo"; then \
       cp /tmp/aua-logo-testsystem.svg /usr/share/nginx/html/aua-logo.svg; \
     else \
