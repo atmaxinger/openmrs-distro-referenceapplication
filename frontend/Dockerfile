@@ -1,14 +1,22 @@
 # syntax=docker/dockerfile:1.3
 
 #--------------------------------------------
-# Downlaod Stage - Download Augen Auf frontend
+# Download Stage - Download Augen Auf frontend
 #--------------------------------------------
 FROM --platform=$BUILDPLATFORM alpine/curl:latest as curl
 
-RUN curl -L -o /augen-auf-openmrs.tgz https://github.com/ednet-dev/augen-auf-openmrs/releases/download/latest
+# Get latest release link
+curl -o /tmp/release.json -sSL "https://api.github.com/repos/ednet-dev/augen-auf-openmrs/releases/latest"\
+    -H "Accept: application/vnd.github.v3+json"; 
+    LATEST_TAG=$(jq -r .tag_name /tmp/release.json) ; 
+    DOWNLOAD_URL=$(jq -r --arg tag "$LATEST_TAG" \
+    '.assets[] | select(.name | contains($tag) or endswith(".tar.gz") or endswith(".tgz")) | .browser_download_url' /tmp
+/release.json | head -n 1) ; 
 
-# AUA assets
-COPY ./aua-* /usr/share/nginx/html/
+RUN curl -L -o /augen-auf-openmrs.tgz $DOWNLOAD_URL
+
+# AUA logos
+COPY aua-* .
 
 #--------------------------------------------
 # Dev Stage - Assembles and Builds Frontend
@@ -49,5 +57,12 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=dev /app/spa /usr/share/nginx/html
 COPY config-core_demo.json /usr/share/nginx/html
+
+# add proper AUA logo based on System Role
+RUN if echo "${HOSTNAME_FOR_BUILD}" | grep -iq "mexico"; then \
+      cp aua-logo.svg /usr/share/nginx/html; \
+    else \
+      cp aua-logo-testsystem.svg /usr/share/nginx/html/aua-logo.svg; \
+    fi
 
 CMD ["/usr/local/bin/startup.sh"]
