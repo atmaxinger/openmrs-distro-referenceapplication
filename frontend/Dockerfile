@@ -5,6 +5,9 @@
 #--------------------------------------------
 FROM --platform=$BUILDPLATFORM alpine/curl:latest as curl
 
+# Install jq for next command
+RUN apk add --no-cache jq
+
 # Get latest AUA Frontend Distro release link
 RUN curl -o release.json -sSL "https://api.github.com/repos/ednet-dev/augen-auf-openmrs/releases/latest"\
     -H "Accept: application/vnd.github.v3+json"; \
