@@ -1,32 +1,25 @@
 key: "AUA.Observations.All"
 name: "Observations for Patients within timerange"
-description: Report displaying all patient observations filtered by date range, patient name search, concept name search, and numeric value range.
+description: Report displaying all patient observations filtered by date range, patient name search, concept name search, and numeric va
+lue range.
+uuid: "5a0f9e5b-30ff-4fff-84c7-40ba6ea583e3" 
 
 parameters:
   - key: "dateFrom"
     label: "From Date"
     type: "java.util.Date"
-    
+
   - key: "dateTo"
     label: "To Date"
     type: "java.util.Date"
-    
-  - key: "patientSearch"
-    label: "Patient Name Search"
+
+  - key: "patientID"
+    label: "Patient ID"
     type: "org.openmrs.Patient"
-    
-    defaultValue: ""
-  - key: "conceptSearch"
-    label: "Concept Name Search"
-    type: "org.openmrs.Concept"
-    
-  - key: "valueFrom"
-    label: "Value From (Numeric)"
-    type: "java.lang.Double"
-    
-  - key: "valueTo"
-    label: "Value To (Numeric)"
-    type: java.lang.Double
+
+  - key: "conceptID"
+    label: "Concept ID"
+    type: "org.openmrs.Concept"    
     
 datasets:
   - key: "observations"
