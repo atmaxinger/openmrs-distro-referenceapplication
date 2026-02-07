@@ -34,4 +34,4 @@ designs:
   - name: sqlDesign
     type: org.openmrs.module.reporting.report.design.SqlReportDesign
     properties:
-      sqlQueryFile: obs-all.sql  # Reference to the SQL file
+      sqlQueryFile: obs_all.sql  # Reference to the SQL file
