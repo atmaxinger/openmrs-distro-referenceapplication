@@ -1,6 +1,6 @@
 key: "AUA.Observations.All"
 name: "AUA Observations for Timerange"
-description: Report displaying all patient observations filtered by date range.
+description: "Report displaying all patient observations filtered by date range."
 uuid: "275fd1ff-fce9-4301-8e8e-457d76438d7d" 
 
 parameters:
