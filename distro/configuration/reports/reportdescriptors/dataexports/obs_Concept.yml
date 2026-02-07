@@ -1,0 +1,33 @@
+key: "AUA.Observations.Concept"
+name: "Observations for Concepts within timerange"
+description: Report displaying all patient observations filtered by date range, concept.
+uuid: "b9940713-b677-47ab-8e9b-0363ceab1556" 
+
+parameters:
+  - key: "dateFrom"
+    label: "From Date"
+    type: "java.util.Date"
+
+  - key: "dateTo"
+    label: "To Date"
+    type: "java.util.Date"
+
+  - key: "conceptID"
+    label: "Concept ID"
+    type: "org.openmrs.Concept"    
+    
+datasets:
+  - key: "observations"
+    type: "sql"
+    config: "sql/obs_all.sql"
+
+designs:
+  - type: "csv"
+    properties:
+      "characterEncoding": "UTF-8"
+      "dateFormat": "yyyy-MM-dd"
+
+config:
+  category: "dataExport"
+  order: 100
+  privilege: "Get Patients"
