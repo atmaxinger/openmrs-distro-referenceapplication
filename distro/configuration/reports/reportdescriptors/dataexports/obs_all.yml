@@ -1,36 +1,33 @@
 key: "AUA.Observations.All"
 name: "Observations for Patients within timerange"
 description: Report displaying all patient observations filtered by date range, patient name search, concept name search, and numeric value range.
-version: 1.0
 
 parameters:
   - key: "dateFrom"
     label: "From Date"
     type: "java.util.Date"
-    required: true
+    
   - key: "dateTo"
     label: "To Date"
     type: "java.util.Date"
-    required: true
+    
   - key: "patientSearch"
     label: "Patient Name Search"
-    type: "java.lang.String"
-    required: false
+    type: "org.openmrs.Patient"
+    
     defaultValue: ""
   - key: "conceptSearch"
     label: "Concept Name Search"
-    type: "java.lang.String"
-    required: false
-    defaultValue: ""
+    type: "org.openmrs.Concept"
+    
   - key: "valueFrom"
     label: "Value From (Numeric)"
     type: "java.lang.Double"
-    required: false
+    
   - key: "valueTo"
     label: "Value To (Numeric)"
     type: java.lang.Double
-    required: false
-
+    
 datasets:
   - key: "observations"
     type: "sql"
