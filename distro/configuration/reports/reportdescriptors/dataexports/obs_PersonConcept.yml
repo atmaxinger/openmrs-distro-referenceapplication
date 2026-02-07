@@ -1,7 +1,6 @@
-key: "AUA.Observations.All"
-name: "Observations for Patients within timerange"
-description: Report displaying all patient observations filtered by date range, patient name search, concept name search, and numeric va
-lue range.
+key: "AUA.Observations.PersonConcept"
+name: "Observations for Patients and Concepts within timerange"
+description: Report displaying all patient observations filtered by date range, patient.
 uuid: "5a0f9e5b-30ff-4fff-84c7-40ba6ea583e3" 
 
 parameters:
