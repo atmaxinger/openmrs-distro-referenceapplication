@@ -2,17 +2,15 @@
     <!-- Supported Languages Configuration -->
     <globalProperties>
         <globalProperty>
-        <property>locale.allowed.list</property>
-        <value>en, es, de</value>        
-    </globalProperty>
-    
-        <!--
-        <globalProperty>
-            <property>referencedemodata.createDemoPatientsOnNextStartup</property>
-            <value>50</value>
+            <property>locale.allowed.list</property>
+            <value>en, es, de</value>        
         </globalProperty>
-        -->
-      
+
+        <globalProperty>
+            <property>theme</property>
+            <value>default</value>
+        </globalProperty>
+
         <!-- Queue Configuration -->
 
         <!-- DEFAULT WAS https://app.openconceptlab.org/#/orgs/openmrs/sources/DemoQueueConcepts/concepts/DemoQueue-Service/ -->
