@@ -42,8 +42,7 @@ RUN if [ ! -f ./spa/index.html ]; then echo 'Build failed. Please check the logs
 # Runtime Stage - Published Image
 #--------------------------------------------
 FROM nginx:1.25-alpine
-ARG BUILD_HOSTNAME=default-host
-ARG HOSTNAME_FOR_BUILD=default-host
+ARG BUILD_HOSTNAME
 
 RUN apk update && \
     apk upgrade && \
@@ -65,8 +64,7 @@ COPY config-core_demo.json /usr/share/nginx/html
 COPY aua-logo* /tmp
 
 RUN echo "${BUILD_HOSTNAME}" > /tmp/hostname_for_build.txt
-RUN echo "${HOSTNAME_FOR_BUILD}" >> /tmp/hostname_for_build.txt
-RUN if echo "${HOSTNAME_FOR_BUILD}" | grep -iq "demo"; then \
+RUN if echo "${BUILD_HOSTNAME}" | grep -iq "demo"; then \
       cp /tmp/aua-logo-testsystem.svg /usr/share/nginx/html/aua-logo.svg; \
     else \
       cp /tmp/aua-logo.svg /usr/share/nginx/html; \
