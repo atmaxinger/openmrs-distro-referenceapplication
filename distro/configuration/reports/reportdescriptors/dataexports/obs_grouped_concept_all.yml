@@ -1,0 +1,29 @@
+key: "AUA.ObservationsGroups.All"
+name: "AUA Observation Groups for Timerange"
+description: "AUA Report displaying all patient observations filtered by date range."
+uuid: "69aad419-343f-4f79-a335-8c773eb66c30"
+
+parameters:
+  - key: "dateFrom"
+    label: "From Date"
+    type: "java.util.Date"
+
+  - key: "dateTo"
+    label: "To Date"
+    type: "java.util.Date"
+    
+datasets:
+  - key: "observation groups"
+    type: "sql"
+    config: "sql/obs_grouped_concept_all.sql"
+
+designs:
+  - type: "csv"
+    properties:
+      "characterEncoding": "UTF-8"
+      "dateFormat": "yyyy-MM-dd"
+
+config:
+  category: "dataExport"
+  order: 100
+  privilege: "Get Patients"
