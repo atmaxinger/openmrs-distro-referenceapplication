@@ -1,7 +1,7 @@
 {
   "name": "AUA AutoRefraction",
   "description": "AR Vision and refraction measurements",
-  "version": "1.7",
+  "version": "1.71",
   "published": true,
   "retired": false,
   "encounter": "Autorefraction",
@@ -75,9 +75,6 @@
                       },
                       {
                         "concept": "AUA-A-004"
-                      },
-                      {
-                        "concept": "AUA-A-005"
                       },
                       {
                         "concept": "AUA-A-005"
@@ -189,9 +186,6 @@
                       },
                       {
                         "concept": "AUA-A-004"
-                      },
-                      {
-                        "concept": "AUA-A-005"
                       },
                       {
                         "concept": "AUA-A-005"

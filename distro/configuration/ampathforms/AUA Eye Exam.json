@@ -1,7 +1,7 @@
 {
   "name": "AUA Eye Exam",
   "description": "Eye examination - Anterior and Posterior segment findings",
-  "version": "1.61",
+  "version": "1.63",
   "published": true,
   "retired": false,
   "encounter": "Consultation",
@@ -24,7 +24,7 @@
                 "concept": "AUA-T-003-R",
                 "min": 0,
                 "max": 100,
-                "step": 0.1
+                "step": 1
               }
             },
             {
@@ -35,7 +35,7 @@
                 "concept": "AUA-T-003-L",
                 "min": 0,
                 "max": 100,
-                "step": 0.1
+                "step": 1
               }
             }
           ]
