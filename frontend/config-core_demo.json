@@ -214,6 +214,16 @@
     "logo": {
       "src": "${openmrsSpaBase}/aua-logo.svg",
       "alt": "[Augen Auf Guatemala]"
+    },
+     "footer": {
+      "additionalLogos": [
+        {
+          "alt": "[ICEP]"
+        },
+        {
+          "alt": "[fundap]"
+        }
+      ]
     }
   },
   "@openmrs/esm-primary-navigation-app": {
