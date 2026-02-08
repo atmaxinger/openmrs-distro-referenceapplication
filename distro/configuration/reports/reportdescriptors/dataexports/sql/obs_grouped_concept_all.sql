@@ -2,6 +2,8 @@ SELECT
     pi.identifier AS patient_identifier,
     pn.given_name AS patient_given_name,
     pn.family_name AS patient_family_name,
+    pe.gender AS sex,
+    pe.birthdate, 
     
     c.uuid AS concept_uuid,               
     cn.name AS concept_name,
